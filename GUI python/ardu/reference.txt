@@ -1,0 +1,1 @@
+rotating pot: http://linuxcnc.org/docs/ja/html/gui/pyvcp.html
