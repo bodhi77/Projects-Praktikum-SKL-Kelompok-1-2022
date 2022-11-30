@@ -810,6 +810,7 @@
 		\includegraphics[width=10cm]{Gambar Lain/diagramDCservo.png}
 	\end{center}
 \end{frame}
+
 \begin{frame}{Konfigurasi Pin-Pin Arduino Mega}
 	\begin{columns}[T]
 		\begin{column}{0.48\textwidth}
@@ -843,7 +844,73 @@
 	\end{columns}
 \end{frame}
 
+
+
 \section{Desain GUI}
+
+\begin{frame}{Percobaan Identifikasi Sistem}
+	\begin{columns}[T] % align columns
+		\begin{column}{0.48\textwidth}
+			Grafik Input dan Output
+			\color{black}\rule{\linewidth}{4pt}
+			\includegraphics[width=7.5cm]{Coba Sistem Identification/timeplot.jpg}
+		\end{column}%
+		\hfill%
+		\begin{column}{0.48\textwidth}
+			Transfer Function
+			\color{blue}\rule{\linewidth}{4pt}
+			\begin{center}
+				\includegraphics[width=7.5cm]{Coba Sistem Identification/hasiltf1.png}
+			\end{center}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Percobaan Identifikasi Sistem}
+	\begin{columns}[T] % align columns
+		\begin{column}{0.48\textwidth}
+			Step Response
+			\color{black}\rule{\linewidth}{4pt}
+			\includegraphics[width=7.5cm]{Coba Sistem Identification/tf1.jpg}
+		\end{column}%
+		\hfill%
+		\begin{column}{0.48\textwidth}
+			State Space
+			\color{blue}\rule{\linewidth}{4pt}
+			\begin{center}
+				\includegraphics[width=6cm]{Coba Sistem Identification/ss1.png}
+			\end{center}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{GUI Python TKinter}
+	\centering
+	\includegraphics[width=10cm]{Gambar Lain/guitkinter.png}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Simulasi-Simulasi Lainnya}
+
+%\begin{frame}{Simulasi DC Motor Encoder Menggunakan Proteus}
+%	\centering
+%	\includegraphics[width=10.0cm]{Gambar Lain/proteus encoder.png}
+%\end{frame}
+
+%\begin{frame}{Simulasi PID Analog Di Proteus}
+%	\centering
+%	\includegraphics[width=10.0cm]{Gambar Lain/analogpid.jpeg}
+%\end{frame}
+
+%\begin{frame}{Simulasi Motor DC Dengan H-Bridge Mosfet Menggunakan Proteus}
+%	\centering
+%	\includegraphics[width=10.0cm]{Gambar Lain/h-bridge mosfet.jpg}
+%\end{frame}
+
+%\begin{frame}{Video Simulasi Motor DC dengan H-Bridge Mosfet}
+%	\centering
+%	\includemovie{4.5in}{2.5in}{Video/h-bridge mosfet compressed.mp4}
+%\end{frame}
 
 %\begin{frame}{Diagram Labview}
 %	\centering
@@ -883,24 +950,23 @@
 %	\movie{\includegraphics[height=2.8in]{Thumbnail/matlab gui.jpg}}{Video/MatlabGUI.mp4}
 %\end{frame}
 
-
-\begin{frame}{\textit{Interface PID Controller on Arduino Board With Simulink}}
-	\begin{columns}[T] % align columns
-		\begin{column}{0.48\textwidth}
-			Blok Simulink
-			\color{black}\rule{\linewidth}{4pt}
-			\includegraphics[width=7.5cm]{Gambar Lain/asimulink_pid.jpg}
-		\end{column}%
-		\hfill%
-		\begin{column}{0.48\textwidth}
-			Hasil
-			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
-				\includegraphics[width=7.5cm]{Hasil Matlab/scopesys.jpg}
-			\end{center}
-		\end{column}
-	\end{columns}
-\end{frame}
+% \begin{frame}{\textit{Interface PID Controller on Arduino Board With Simulink}}
+% 	\begin{columns}[T] % align columns
+% 		\begin{column}{0.48\textwidth}
+% 			Blok Simulink
+% 			\color{black}\rule{\linewidth}{4pt}
+% 			\includegraphics[width=7.5cm]{Gambar Lain/asimulink_pid.jpg}
+% 		\end{column}%
+% 		\hfill%
+% 		\begin{column}{0.48\textwidth}
+% 			Hasil
+% 			\color{blue}\rule{\linewidth}{4pt}
+% 			\begin{center}
+% 				\includegraphics[width=7.5cm]{Hasil Matlab/scopesys.jpg}
+% 			\end{center}
+% 		\end{column}
+% 	\end{columns}
+% \end{frame}
 
 %\begin{frame}{\textit{Interface PID Controller on Arduino Board With Simscape}}
 %	\begin{columns}[T] % align columns
@@ -948,76 +1014,10 @@
 %	\end{columns}
 %\end{frame}
 
-\begin{frame}{Percobaan Identifikasi Sistem}
-	\begin{columns}[T] % align columns
-		\begin{column}{0.48\textwidth}
-			Grafik Input dan Output
-			\color{black}\rule{\linewidth}{4pt}
-			\includegraphics[width=7.5cm]{Coba Sistem Identification/timeplot.jpg}
-		\end{column}%
-		\hfill%
-		\begin{column}{0.48\textwidth}
-			Transfer Function
-			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
-				\includegraphics[width=7.5cm]{Coba Sistem Identification/hasiltf1.png}
-			\end{center}
-		\end{column}
-	\end{columns}
-\end{frame}
-
-\begin{frame}{Percobaan Identifikasi Sistem}
-	\begin{columns}[T] % align columns
-		\begin{column}{0.48\textwidth}
-			Step Response
-			\color{black}\rule{\linewidth}{4pt}
-			\includegraphics[width=7.5cm]{Coba Sistem Identification/tf1.jpg}
-		\end{column}%
-		\hfill%
-		\begin{column}{0.48\textwidth}
-			State Space
-			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
-				\includegraphics[width=6cm]{Coba Sistem Identification/ss1.png}
-			\end{center}
-		\end{column}
-	\end{columns}
-\end{frame}
-
 %\begin{frame}{GUI Processing}
 %	\centering
 %	\includegraphics[width=10cm]{Gambar Lain/guiprocessing.jpeg}
 %\end{frame}
-
-\begin{frame}{GUI Python TKinter}
-	\centering
-	\includegraphics[width=10cm]{Gambar Lain/guitkinter.png}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Simulasi-Simulasi Lainnya}
-
-%\begin{frame}{Simulasi DC Motor Encoder Menggunakan Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/proteus encoder.png}
-%\end{frame}
-
-%\begin{frame}{Simulasi PID Analog Di Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/analogpid.jpeg}
-%\end{frame}
-
-%\begin{frame}{Simulasi Motor DC Dengan H-Bridge Mosfet Menggunakan Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/h-bridge mosfet.jpg}
-%\end{frame}
-
-%\begin{frame}{Video Simulasi Motor DC dengan H-Bridge Mosfet}
-%	\centering
-%	\includemovie{4.5in}{2.5in}{Video/h-bridge mosfet compressed.mp4}
-%\end{frame}
-
-
 
 \end{document}
 
