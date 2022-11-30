@@ -681,101 +681,101 @@
 	\end{columns}
 \end{frame}
 
-\section{Simulasi LQR}
-\begin{frame}[t,fragile]{Simulasi LQR: Kecepatan}
-	Klik untuk menjalankan animasi scroll:
-	% typeset code into xsavebox `code1'
-	\begin{codescroll}[style=C++]{code1}{43}{24}
-			%% Mendefinisikan Parameter-parameter yang diperlukan
-		J = 0.01;
-		b = 0.1;
-		K = 0.01;
-		R = 1;
-		L = 0.5;
-		
-		%% Matriks State-Space
-		
-		A = [-b/J    K/J
-		-K/L    -R/L];
-		B = [0
-		1/L];
-		C = [1  0];
-		D=0;
-		
-		%% Cek Controllability Sistem
-		Co = ctrb(A,B)
-		rank(Co)
-		
-		%% LQR
-		Q = [1    0
-		0    1];
-		R = 1;
-		
-		K = lqr(A, B, Q, R)
-		
-		%% Opened Loop Sistem
-		sys_ol= ss(A,B,C,D)
-		figure(1), step(sys_ol,0:0.01:10)
-		grid on
-		title('Opened-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
-		
-		%% Closed Loop sistem
-		A_cl = A-B*K   
-		sys_cl= ss(A_cl,B,C,D)
-		figure(2), step(sys_cl,0:0.01:10)
-		grid on
-		title('Closed-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
-	\end{codescroll}
-\end{frame}
-
-\begin{frame}[t,fragile]{Simulasi LQR: Posisi}
-	Klik untuk menjalankan animasi scroll:
-	% typeset code into xsavebox `code1'
-	\begin{codescroll}[style=C++]{code1}{43}{24}
-		%% Mendefinisikan Parameter-parameter yang diperlukan
-		J = 3.2284E-6;
-		b = 3.5077E-6;
-		K = 0.0274;
-		R = 4;
-		L = 2.75E-6;
-		
-		%% Matriks State-Space
-		
-		A = [0  1       0
-		0  -b/J    K/J
-		0  -K/L    -R/L];
-		B = [0
-		0
-		1/L];
-		C = [1  0   0];
-		D=0;
-		
-		%% Cek Controllability Sistem
-		Co = ctrb(A,B)
-		rank(Co)
-		
-		%% LQR
-		Q = [1    0    0
-		0    1    0
-		0    0    1];
-		R = 1;
-		
-		K = lqr(A, B, Q, R)
-		
-		%% Opened Loop Sistem
-		sys_ol= ss(A,B,C,D)
-		figure(1), step(sys_ol,0:0.01:10)
-		grid on
-		title('Opened-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
-		
-		%% Closed Loop sistem
-		A_cl = A-B*K   
-		sys_cl= ss(A_cl,B,C,D)
-		figure(2), step(sys_cl,0:0.01:10)
-		grid on
-		title('Closed-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
-	\end{codescroll}
-\end{frame}
+%\section{Simulasi LQR}
+%\begin{frame}[t,fragile]{Simulasi LQR: Kecepatan}
+%	Klik untuk menjalankan animasi scroll:
+%	% typeset code into xsavebox `code1'
+%	\begin{codescroll}[style=C++]{code1}{43}{24}
+%			%% Mendefinisikan Parameter-parameter yang diperlukan
+%		J = 0.01;
+%		b = 0.1;
+%		K = 0.01;
+%		R = 1;
+%		L = 0.5;
+%		
+%		%% Matriks State-Space
+%		
+%		A = [-b/J    K/J
+%		-K/L    -R/L];
+%		B = [0
+%		1/L];
+%		C = [1  0];
+%		D=0;
+%		
+%		%% Cek Controllability Sistem
+%		Co = ctrb(A,B)
+%		rank(Co)
+%		
+%		%% LQR
+%		Q = [1    0
+%		0    1];
+%		R = 1;
+%		
+%		K = lqr(A, B, Q, R)
+%		
+%		%% Opened Loop Sistem
+%		sys_ol= ss(A,B,C,D)
+%		figure(1), step(sys_ol,0:0.01:10)
+%		grid on
+%		title('Opened-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
+%		
+%		%% Closed Loop sistem
+%		A_cl = A-B*K   
+%		sys_cl= ss(A_cl,B,C,D)
+%		figure(2), step(sys_cl,0:0.01:10)
+%		grid on
+%		title('Closed-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
+%	\end{codescroll}
+%\end{frame}
+%
+%\begin{frame}[t,fragile]{Simulasi LQR: Posisi}
+%	Klik untuk menjalankan animasi scroll:
+%	% typeset code into xsavebox `code1'
+%	\begin{codescroll}[style=C++]{code1}{43}{24}
+%		%% Mendefinisikan Parameter-parameter yang diperlukan
+%		J = 3.2284E-6;
+%		b = 3.5077E-6;
+%		K = 0.0274;
+%		R = 4;
+%		L = 2.75E-6;
+%		
+%		%% Matriks State-Space
+%		
+%		A = [0  1       0
+%		0  -b/J    K/J
+%		0  -K/L    -R/L];
+%		B = [0
+%		0
+%		1/L];
+%		C = [1  0   0];
+%		D=0;
+%		
+%		%% Cek Controllability Sistem
+%		Co = ctrb(A,B)
+%		rank(Co)
+%		
+%		%% LQR
+%		Q = [1    0    0
+%		0    1    0
+%		0    0    1];
+%		R = 1;
+%		
+%		K = lqr(A, B, Q, R)
+%		
+%		%% Opened Loop Sistem
+%		sys_ol= ss(A,B,C,D)
+%		figure(1), step(sys_ol,0:0.01:10)
+%		grid on
+%		title('Opened-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
+%		
+%		%% Closed Loop sistem
+%		A_cl = A-B*K   
+%		sys_cl= ss(A_cl,B,C,D)
+%		figure(2), step(sys_cl,0:0.01:10)
+%		grid on
+%		title('Closed-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
+%	\end{codescroll}
+%\end{frame}
 
 \section{Sistem Mekanikal dan Elektrikal}
 \begin{frame}{Komponen-Komponen Utama}
@@ -896,10 +896,22 @@
 		\includegraphics[width=8.0cm]{Tampilan GUI/WANNATHISGUI.png}
 	\end{center}
 \end{frame}
-\begin{frame}
-	\begin{center}
-		content...
-	\end{center}
+\begin{frame}{Progress GUI}
+	\begin{columns}[T] % align columns
+		\begin{column}{0.48\textwidth}
+			Tampilan Awal:
+			\color{black}\rule{\linewidth}{4pt}
+			\includegraphics[width=7.5cm]{Tampilan GUI/beranda.png}
+		\end{column}%
+		\hfill%
+		\begin{column}{0.48\textwidth}
+			Serial Plotter:
+			\color{blue}\rule{\linewidth}{4pt}
+			\begin{center}
+				\includegraphics[width=7.5cm]{Tampilan GUI/Splot.png}
+			\end{center}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
