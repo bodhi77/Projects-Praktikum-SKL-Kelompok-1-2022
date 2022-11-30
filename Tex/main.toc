@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Gambaran Umum Proyek Sistem Kendali Motor DC}{4}{0}{1}
+\beamer@sectionintoc {2}{Pemodelan Sistem Motor DC}{7}{0}{2}
+\beamer@sectionintoc {3}{Perancangan Kendali PID Motor DC}{13}{0}{3}
+\beamer@sectionintoc {4}{Simulasi Kendali PID}{19}{0}{4}
+\beamer@sectionintoc {5}{Simulasi LQR}{26}{0}{5}
+\beamer@sectionintoc {6}{Sistem Mekanikal dan Elektrikal}{29}{0}{6}
+\beamer@sectionintoc {7}{Desain GUI}{35}{0}{7}
