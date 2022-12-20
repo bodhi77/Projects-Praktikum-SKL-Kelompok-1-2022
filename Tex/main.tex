@@ -186,7 +186,7 @@
 %\subtitle{ }%%subtitle
 \author[Kelompok 1]{Priyova M. Rafief\inst{1}, Karunia Dini F.\inst{1}, Octsana Dhiyaa W.\inst{1}, Bodhi Setiawan\inst{1}}%%authors
 
-\institute[UGM]{Universitas Gadjah Mada\inst{1}}
+\institute[UGM]{Departemen Teknik Elektro dan Informatika, Sekolah Vokasi, Universitas Gadjah Mada\inst{1}}
 \date[\textcolor{white}{PSKL, 2022}]
 {Praktikum Sistem Kendali Lanjut}
 
@@ -234,31 +234,11 @@
 		\frametitle{Isi Pembahasan}
 		    \tableofcontents
 	\end{frame}
-	
-	\section{Gambaran Umum Proyek Sistem Kendali Motor DC}
-	
-	\begin{frame}{Diagram Sistem}
-		\centering
-		\includegraphics[width=10cm]{Gambar Lain/diagramDCservo.png}
+	\section{Pengenalan Sistem}
+	\begin{frame}{Pengenalan Sistem}
+		Modul DC Servo yang digunakan untuk edukasi penerapan kendali posisi dan kecepatan bla bla bla.....\newline "Kasih Gambar Alatnya di sini (Yang bagusss, angle n pencahayaan baguss)"
 	\end{frame}
-
 	\section{Pemodelan Sistem Motor DC}
-	
-	\begin{frame}{Pengertian Motor DC}
-		\begin{columns}[T]% align columns
-			\begin{column}{0.48\textwidth}
-				\color{black}\rule{\linewidth}{4pt}
-				
-					Motor DC atau dalam bahasa Indonesia disebut motor arus searah adalah jenis motor listrik yang mengubah energi listrik arus searah menjadi energi mekanis. Bentuk energi yang dihasilkan berupa putaran. Prinsip kerja motor aru searah berdasarkan pada interaksi antara dua fluks magnetik yang disebut dengan kumparan medan dan kumparan jangkar. Kumparan medan menghasilkan fluks magnet dengan arah dari kutub utara ke kutub selatan, sedangkan kumparan jangkar menghasilkan fluks magnetik yang melingkar. \newline \textit{Sumber: Wikipedia}		
-			\end{column}%
-			\hfill%
-			\begin{column}{0.48\textwidth}
-				\color{myNewColorA}\rule{\linewidth}{4pt}
-				Ilustrasi Motor DC:\newline
-				\animategraphics[loop,width=7cm]{10}{Gambar Lain/PMDC/PMDC-}{0}{3}
-			\end{column}
-		\end{columns}
-	\end{frame}
 	\begin{frame}{Struktur Fisik}
 		\begin{columns}[T] % align columns
 			\begin{column}{0.48\textwidth}
@@ -584,9 +564,7 @@
 		\begin{column}{.48\textwidth}
 			Program \textit{Closed-loop}:
 			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
 				\lstinputlisting[language=Matlab]{Matlab/clDCspeed.m}
-			\end{center}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -594,17 +572,15 @@
 \begin{frame}{Uji Perbandingan Sistem \textit{Open-loop} dengan \textit{Closed-loop} Motor DC}
 	\begin{columns}[T] % align columns
 		\begin{column}{0.48\textwidth}
-			Hasil \textit{Open-loop}:
+			Hasil \textit{Open-loop}:\newline
 			\color{black}\rule{\linewidth}{4pt}
 			\includegraphics[width=7.5cm]{Matlab/olDCSpeed.png}
 		\end{column}%
 		\hfill%
 		\begin{column}{0.48\textwidth}
-			Hasil \textit{Closed-loop}:
+			Hasil \textit{Closed-loop}:\newline
 			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
 				\includegraphics[width=7.5cm]{Matlab/clDCSpeed.png}
-			\end{center}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -682,37 +658,11 @@
 \end{frame}
 
 \section{Sistem Mekanikal dan Elektrikal}
-\begin{frame}{Komponen-Komponen Utama}
-	\begin{columns}[T]
-		\begin{column}{0.31\textwidth}
-			\begin{center}
-				\includegraphics[width=4cm]{Gambar Komponen/MEGA.jpg}
-				Arduino Mega\newline\newline
-				\includegraphics[width=3cm]{Gambar Komponen/POT.jpg}
-				Potensiometer $360^o$
-			\end{center}
-		\end{column}
-		\begin{column}{0.31\textwidth}
-			\begin{center}
-				\includegraphics[width=2.5cm]{Gambar Komponen/MOTOR.jpg}
-				\newline Motor DC\newline\newline
-				\includegraphics[width=2.5cm]{Gambar Komponen/ENCODER.jpg}
-				\newline Rotary Encoder
-			\end{center}
-		\end{column}
-		\begin{column}{0.31\textwidth}
-			\begin{center}
-				\includegraphics[width=2.5cm]{Gambar Komponen/TACHO.png}
-				\newline Tachogenerator
-			\end{center}
-		\end{column}
-	\end{columns}
-\end{frame}
+
 
 \begin{frame}{Diagram Sistem}
-	Komponen-komponen utama kemudian disusun menjadi suatu sistem yang ditunjukkan pada diagram sistem seperti yang sudah ditunjukkan di awal.
 	\begin{center}
-		\includegraphics[width=10cm]{Gambar Lain/diagramDCservo.png}
+		\includegraphics[width=12cm]{Gambar Lain/diagram.png}
 	\end{center}
 \end{frame}
 
@@ -720,7 +670,7 @@
 	\begin{columns}[T]
 		\begin{column}{0.48\textwidth}
 			\centering
-			\includegraphics[width=6cm]{Gambar Lain/KONTORU.jpg}
+			\includegraphics[width=8cm]{Gambar Lain/KONTORU.jpg}
 			Kontroler
 		\end{column}
 		\begin{column}{0.48\textwidth}
@@ -748,12 +698,6 @@
 		\end{column}
 	\end{columns}
 \end{frame}
-
-\begin{frame}{Flowchart Kerja Program Pada Alat}
-	\centering
-	\includegraphics[width=10cm]{Gambar Lain/FlowchartProgram.png}
-\end{frame}
-
 \begin{frame}{Desain 3D}
 	\begin{columns}[T] % align columns
 		\begin{column}{0.48\textwidth}
@@ -765,9 +709,7 @@
 		\begin{column}{0.48\textwidth}
 			Alat
 			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
 				\includegraphics[width=7.5cm]{Render/Feedback Actuator UNIT ES151(Home).png}
-			\end{center}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -783,9 +725,7 @@
 		\begin{column}{0.48\textwidth}
 			Tampak Atas
 			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
 				\includegraphics[width=7.5cm]{Gambar Lain/TampakAtas.jpeg}
-			\end{center}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -800,251 +740,6 @@
 		\includegraphics[width=8.0cm]{Tampilan GUI/WANNATHISGUI.png}
 	\end{center}
 \end{frame}
-\begin{frame}{Progress GUI}
-	\begin{columns}[T] % align columns
-		\begin{column}{0.48\textwidth}
-			Tampilan Awal:
-			\color{black}\rule{\linewidth}{4pt}
-			\includegraphics[width=7.5cm]{Tampilan GUI/beranda.png}
-		\end{column}%
-		\hfill%
-		\begin{column}{0.48\textwidth}
-			Serial Plotter:
-			\color{blue}\rule{\linewidth}{4pt}
-			\begin{center}
-				\includegraphics[width=7.5cm]{Tampilan GUI/Splot.png}
-			\end{center}
-		\end{column}
-	\end{columns}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Simulasi-Simulasi Lainnya}
-
-%\begin{frame}{Simulasi DC Motor Encoder Menggunakan Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/proteus encoder.png}
-%\end{frame}
-
-%\begin{frame}{Simulasi PID Analog Di Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/analogpid.jpeg}
-%\end{frame}
-
-%\begin{frame}{Simulasi Motor DC Dengan H-Bridge Mosfet Menggunakan Proteus}
-%	\centering
-%	\includegraphics[width=10.0cm]{Gambar Lain/h-bridge mosfet.jpg}
-%\end{frame}
-
-%\begin{frame}{Video Simulasi Motor DC dengan H-Bridge Mosfet}
-%	\centering
-%	\includemovie{4.5in}{2.5in}{Video/h-bridge mosfet compressed.mp4}
-%\end{frame}
-
-%\begin{frame}{Diagram Labview}
-%	\centering
-%	\includegraphics[width=10cm]{Gambar Lain/labview1.png}
-%\end{frame}
-%
-%\begin{frame}{Tampilan GUI Labview}
-%	\centering
-%	\includegraphics[width=10cm]{Gambar Lain/labview2.png}
-%\end{frame}
-%
-%\begin{frame}{Video LabView}
-%	\centering
-%	\movie{\includegraphics[width=4.5in]{Thumbnail/labview.png}}{Video/LABVIEW.mp4}
-%\end{frame}
-%
-%\begin{frame}{GUI Matlab-Arduino}
-%	\centering
-%	\includegraphics[width=10cm]{Hasil Matlab/GUI MAtlab 1.png}
-%\end{frame}
-%
-%\begin{frame}{Tampilan GUI Matlab-Arduino}
-%	\centering
-%	\includegraphics[width=10cm]{Hasil Matlab/GUI MAtlab arduino.png}
-%\end{frame}
-%
-%\begin{frame}{Kode Program Pada Matlab}
-%	\lstinputlisting[language=Matlab]{Hasil Matlab/Program1.m}
-%\end{frame}
-%
-%\begin{frame}{Kode Program Pada Matlab}
-%	\lstinputlisting[language=Matlab]{Hasil Matlab/Program2.m}
-%\end{frame}
-%
-%\begin{frame}{Video Simulasi GUI Matlab-Arduino}
-%	\centering
-%	\movie{\includegraphics[height=2.8in]{Thumbnail/matlab gui.jpg}}{Video/MatlabGUI.mp4}
-%\end{frame}
-
-% \begin{frame}{\textit{Interface PID Controller on Arduino Board With Simulink}}
-% 	\begin{columns}[T] % align columns
-% 		\begin{column}{0.48\textwidth}
-% 			Blok Simulink
-% 			\color{black}\rule{\linewidth}{4pt}
-% 			\includegraphics[width=7.5cm]{Gambar Lain/asimulink_pid.jpg}
-% 		\end{column}%
-% 		\hfill%
-% 		\begin{column}{0.48\textwidth}
-% 			Hasil
-% 			\color{blue}\rule{\linewidth}{4pt}
-% 			\begin{center}
-% 				\includegraphics[width=7.5cm]{Hasil Matlab/scopesys.jpg}
-% 			\end{center}
-% 		\end{column}
-% 	\end{columns}
-% \end{frame}
-
-%\begin{frame}{\textit{Interface PID Controller on Arduino Board With Simscape}}
-%	\begin{columns}[T] % align columns
-%		\begin{column}{0.48\textwidth}
-%			Blok Simscape
-%			\color{black}\rule{\linewidth}{4pt}
-%			\includegraphics[width=7.5cm]{Gambar Lain/asimscape_pid.jpg}
-%		\end{column}%
-%		\hfill%
-%		\begin{column}{0.48\textwidth}
-%			Hasil
-%			\color{blue}\rule{\linewidth}{4pt}
-%			\begin{center}
-%				\includegraphics[width=7.5cm]{Gambar Lain/asimscape_pid_scope.jpg}
-%			\end{center}
-%		\end{column}
-%	\end{columns}
-%\end{frame}
-
-%\begin{frame}{Tampilan Board Pada Simulasi Arduino-Simulink}
-%	\centering
-%	\includegraphics[width=10cm]{Gambar Lain/potentio-arduino.jpeg}
-%\end{frame}
-
-%\begin{frame}{Identifikasi Sistem Pada Simulasi Arduino-Simulink}
-%	\centering
-%	\includegraphics[width=12cm]{Hasil Matlab/blokdiagramident.jpg}
-%\end{frame}
-%
-%\begin{frame}{Proses Identifikasi Sistem}
-%	\begin{columns}[T] % align columns
-%		\begin{column}{0.48\textwidth}
-%			Identifikasi Sistem
-%			\color{black}\rule{\linewidth}{4pt}
-%			\includegraphics[width=7.5cm]{Hasil Matlab/prosesident.jpg}
-%		\end{column}%
-%		\hfill%
-%		\begin{column}{0.48\textwidth}
-%			Hasil Transfer Function
-%			\color{blue}\rule{\linewidth}{4pt}
-%			\begin{center}
-%				\includegraphics[width=7.5cm]{Hasil Matlab/hasiltf.jpg}
-%			\end{center}
-%		\end{column}
-%	\end{columns}
-%\end{frame}
-
-%\begin{frame}{GUI Processing}
-%	\centering
-%	\includegraphics[width=10cm]{Gambar Lain/guiprocessing.jpeg}
-%\end{frame}
-
-%\section{Simulasi LQR}
-%\begin{frame}[t,fragile]{Simulasi LQR: Kecepatan}
-%	Klik untuk menjalankan animasi scroll:
-%	% typeset code into xsavebox `code1'
-%	\begin{codescroll}[style=C++]{code1}{43}{24}
-%			%% Mendefinisikan Parameter-parameter yang diperlukan
-%		J = 0.01;
-%		b = 0.1;
-%		K = 0.01;
-%		R = 1;
-%		L = 0.5;
-%		
-%		%% Matriks State-Space
-%		
-%		A = [-b/J    K/J
-%		-K/L    -R/L];
-%		B = [0
-%		1/L];
-%		C = [1  0];
-%		D=0;
-%		
-%		%% Cek Controllability Sistem
-%		Co = ctrb(A,B)
-%		rank(Co)
-%		
-%		%% LQR
-%		Q = [1    0
-%		0    1];
-%		R = 1;
-%		
-%		K = lqr(A, B, Q, R)
-%		
-%		%% Opened Loop Sistem
-%		sys_ol= ss(A,B,C,D)
-%		figure(1), step(sys_ol,0:0.01:10)
-%		grid on
-%		title('Opened-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
-%		
-%		%% Closed Loop sistem
-%		A_cl = A-B*K   
-%		sys_cl= ss(A_cl,B,C,D)
-%		figure(2), step(sys_cl,0:0.01:10)
-%		grid on
-%		title('Closed-Loop Kendali Kecepatan'), xlabel('Waktu'),ylabel('Kecepatan')
-%	\end{codescroll}
-%\end{frame}
-%
-% %%% ga jadi dipake %%%
-%\begin{frame}[t,fragile]{Simulasi LQR: Posisi}
-%	Klik untuk menjalankan animasi scroll:
-%	% typeset code into xsavebox `code1'
-%	\begin{codescroll}[style=C++]{code1}{43}{24}
-%		%% Mendefinisikan Parameter-parameter yang diperlukan
-%		J = 3.2284E-6;
-%		b = 3.5077E-6;
-%		K = 0.0274;
-%		R = 4;
-%		L = 2.75E-6;
-%		
-%		%% Matriks State-Space
-%		
-%		A = [0  1       0
-%		0  -b/J    K/J
-%		0  -K/L    -R/L];
-%		B = [0
-%		0
-%		1/L];
-%		C = [1  0   0];
-%		D=0;
-%		
-%		%% Cek Controllability Sistem
-%		Co = ctrb(A,B)
-%		rank(Co)
-%		
-%		%% LQR
-%		Q = [1    0    0
-%		0    1    0
-%		0    0    1];
-%		R = 1;
-%		
-%		K = lqr(A, B, Q, R)
-%		
-%		%% Opened Loop Sistem
-%		sys_ol= ss(A,B,C,D)
-%		figure(1), step(sys_ol,0:0.01:10)
-%		grid on
-%		title('Opened-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
-%		
-%		%% Closed Loop sistem
-%		A_cl = A-B*K   
-%		sys_cl= ss(A_cl,B,C,D)
-%		figure(2), step(sys_cl,0:0.01:10)
-%		grid on
-%		title('Closed-Loop Kendali Posisi'), xlabel('Waktu'),ylabel('Sudut')
-%	\end{codescroll}
-%\end{frame}
-
 \end{document}
 
 
