@@ -220,25 +220,62 @@
 
 	\frame{\titlepage}
 	
+%	\begin{frame}
+%		\frametitle{Anggota Kelompok 1}
+%		\begin{enumerate}
+%			\item Priyoya M. Rafief (20/457197/SV/17644)
+%			\item Karunia Dini F. (20/464248/SV/18567)
+%			\item Octsana Dhiyaa W. (20/464253/SV/18572)
+%			\item Bodhi Setiawan (20/464239/SV/18558)
+%		\end{enumerate}
+%	\end{frame}
+	
 	\begin{frame}
 		\frametitle{Anggota Kelompok 1}
-		\begin{enumerate}
-			\item Priyoya M. Rafief (20/457197/SV/17644)
-			\item Karunia Dini F. (20/464248/SV/18567)
-			\item Octsana Dhiyaa W. (20/464253/SV/18572)
-			\item Bodhi Setiawan (20/464239/SV/18558)
-		\end{enumerate}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Priyoya M. Rafief \newline (20/457197/SV/17644)
+						\vspace{1.8cm}
+						\newline Karunia Dini F. \newline (20/464248/SV/18567)
+					\end{Center}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Bodhi Setiawan \newline (20/464239/SV/18558)
+						\vspace{1.8cm}
+						\newline Octsana Dhiyaa W. \newline (20/464253/SV/18572)
+					\end{Center}
+				\end{column}
+			\end{columns}
+		\begin{Center}
+			\vspace{0.8cm}
+			Dosen Pengampu : Fahmizal, S.T., M.Sc.
+		\end{Center}
 	\end{frame}
 	
 	\begin{frame}
 		\frametitle{Isi Pembahasan}
 		    \tableofcontents
 	\end{frame}
-	\section{Pengenalan Sistem}
+
+\section{Pengenalan Sistem}
 	\begin{frame}{Pengenalan Sistem}
-		Feedback Educational Servo ES151 merupakan sebuah modul DC Servo yang digunakan untuk edukasi penerapan kendali posisi dan kecepatan. 
-		\newline \includegraphics[width=7.5cm]{Gambar Lain/removed bg-modul.png}
+		\begin{columns}[T] % align columns
+			\begin{column}{0.48\textwidth}
+			\vspace{1cm}
+			\justifying \textit{Feedback Educational Servo} ES151 merupakan sebuah modul motor DC servo yang digunakan untuk edukasi dalam penerapan kendali posisi dan kendali kecepatan.
+			\vspace{0.5cm}
+			\newline \justifying Pada modul ini potensiometer digunakan untuk kendali posisi, tachogenerator digunakan untuk kendali kecepatan, dan \textit{rotary encoder} yang dapat digunakan untuk kendali posisi maupun kecepatan. 
+			\end{column}%
+			\hfill%
+			\begin{column}{0.48\textwidth}
+				\includegraphics[width=7.5cm]{Gambar Lain/removed bg-modul.png}
+			\end{column}
+		\end{columns}
 	\end{frame}
+
 	\section{Pemodelan Sistem Motor DC}
 	\begin{frame}{Struktur Fisik}
 		\begin{columns}[T] % align columns
@@ -631,11 +668,11 @@
 		\end{column}%
 		\hfill%
 		\begin{column}{0.48\textwidth}
-			Blok PID & Plant Motor DC
+			Diagram Blok PID dan Plant Motor DC
 			\color{blue}\rule{\linewidth}{4pt}
 			\begin{center}
-				\includegraphics[height=5cm]{Matlab/simulink2.jpg}
-				\newline \includegraphics[width=7.5cm]{Matlab/simulink3.jpg}
+				\includegraphics[height=3cm]{Matlab/simulink2.jpg}
+				\includegraphics[width=7.5cm]{Matlab/simulink3.jpg}
 			\end{center}
 		\end{column}
 	\end{columns}
@@ -705,15 +742,29 @@
 \end{frame}
 
 \section{Desain GUI}
-\begin{frame}{Desain GUI yang Ditargetkan}
-	\begin{enumerate}
-		\item Memiliki Serial Plotter untuk plotting data
-		\item Dapat mengatur nilai parameter-parameter kontroler PID
-	\end{enumerate}
-	\begin{center}
-		\includegraphics[width=8.0cm]{Tampilan GUI/WANNATHISGUI.png}
+\begin{frame}{Tampilan GUI}
+		\begin{center}
+		\includegraphics[width=12.0cm]{Tampilan GUI/Desain GUI.png}
 	\end{center}
+
 \end{frame}
+
+\begin{frame}{Kesimpulan}
+	
+\end{frame}
+
+\begin{frame}{Daftar Pustaka}
+	
+\end{frame}
+
+\begin{frame}
+	\begin{Center}
+	\includegraphics[height=3cm]{Lambang dan logo UGM/Lambang UGM-hitam.png}
+	\vspace{0.5cm}
+	\newline Visit us on https://otomasi.sv.ugm.ac.id/
+	\end{Center}
+\end{frame}
+
 \end{document}
 
 
