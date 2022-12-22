@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.3)  20 DEC 2022 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.3)  23 DEC 2022 06:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1527,26 +1527,13 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
 )
-(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/media9\media9.sty
-Package: media9 2022/08/04 v1.25 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count358
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
 
-(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
-Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count359
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-\l_mix_poster_box=\box81
-\g_mix_wd_dim=\dimen298
-\g_mix_ht_dim=\dimen299
-\g_mix_dp_dim=\dimen300
-\g_mix_rmcnt_int=\count360
-\l_mix_viewcnt_int=\count361
-\g@mix@page@int=\count362
-\g_mix_resizeflag_int=\count363
-\l_mix_lineno_int=\count364
-\l_mix_pbtn_box=\box82
-\g_mix_mbtncnt_int=\count365
-\mix@btn@dim=\dimen301
+\mm@movie=\count358
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintexpr.sty
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintfrac.sty
@@ -1554,18 +1541,18 @@ Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintcore.sty
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintkernel.sty
 Package: xintkernel 2022/06/10 v1.4m Paraphernalia for the xint packages (JFB)
-\xint_c_ii^xiv=\count366
-\xint_c_ii^xxi=\count367
+\xint_c_ii^xiv=\count359
+\xint_c_ii^xxi=\count360
 )
 Package: xintcore 2022/06/10 v1.4m Expandable arithmetic on big integers (JFB)
-\xint_c_x^viii=\count368
-\xint_c_x^ix=\count369
-\xint_c_x^viii_mone=\count370
-\xint_c_xii_e_viii=\count371
-\xint_c_xi_e_viii_mone=\count372
+\xint_c_x^viii=\count361
+\xint_c_x^ix=\count362
+\xint_c_x^viii_mone=\count363
+\xint_c_xii_e_viii=\count364
+\xint_c_xi_e_viii_mone=\count365
 )
 Package: xint 2022/06/10 v1.4m Expandable operations on big integers (JFB)
-\xint_c_nine_x^viii=\count373
+\xint_c_nine_x^viii=\count366
 )
 Package: xintfrac 2022/06/10 v1.4m Expandable operations on fractions (JFB)
 ) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xinttools.sty
@@ -1592,9 +1579,9 @@ Package: poormanlog 2022/05/25 v0.07 base 10 log and pow with 9 digits (JFB)
 .sty
 Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
 ings'
-\lstag@spacecount=\count374
+\lstag@spacecount=\count367
 )
-\measBox=\box83
+\measBox=\box81
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1607,7 +1594,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box84
+\pgfnodeparttextbox=\box82
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -1616,8 +1603,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -1631,8 +1618,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
 ))
@@ -1643,34 +1630,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count375
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count368
+\pgfplotmarksize=\dimen302
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
-\tikz@figbox=\box85
-\tikz@figbox@bg=\box86
-\tikz@tempbox=\box87
-\tikz@tempbox@bg=\box88
-\tikztreelevel=\count376
-\tikznumberofchildren=\count377
-\tikznumberofcurrentchild=\count378
-\tikz@fig@count=\count379
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
+\tikz@figbox=\box83
+\tikz@figbox@bg=\box84
+\tikz@tempbox=\box85
+\tikz@tempbox@bg=\box86
+\tikztreelevel=\count369
+\tikznumberofchildren=\count370
+\tikznumberofcurrentchild=\count371
+\tikz@fig@count=\count372
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count380
-\pgfmatrixcurrentcolumn=\count381
-\pgf@matrix@numberofcolumns=\count382
+\pgfmatrixcurrentrow=\count373
+\pgfmatrixcurrentcolumn=\count374
+\pgf@matrix@numberofcolumns=\count375
 )
-\tikz@expandcount=\count383
+\tikz@expandcount=\count376
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -1692,15 +1679,15 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count384
-\calc@Bcount=\count385
-\calc@Adimen=\dimen315
-\calc@Bdimen=\dimen316
+\calc@Acount=\count377
+\calc@Bcount=\count378
+\calc@Adimen=\dimen311
+\calc@Bdimen=\dimen312
 \calc@Askip=\skip64
 \calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count386
+\calc@Ccount=\count379
 \calc@Cskip=\skip66
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
@@ -1712,53 +1699,32 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count387
+\c@abspage=\count380
 Package zref Info: New property: abspage on input line 65.
 )
-\@anim@box=\box89
-\@anim@measbox=\box90
-\@anim@tmpdima=\dimen317
-\@anim@tmpdimb=\dimen318
-\@anim@num=\count388
-\@anim@curframe=\count389
-\@anim@curframe@zb=\count390
-\@anim@resizeflags=\count391
-\@anim@skipfram=\count392
-\@anim@mulframecnt=\count393
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count381
+)
+\@anim@box=\box87
+\@anim@measbox=\box88
+\@anim@tmpdima=\dimen313
+\@anim@tmpdimb=\dimen314
+\@anim@num=\count382
+\@anim@curframe=\count383
+\@anim@curframe@zb=\count384
+\@anim@resizeflags=\count385
+\@anim@skipfram=\count386
+\@anim@mulframecnt=\count387
 \@anim@@tmlnfile=\read3
-\@anim@tmpcnt=\count394
-\c@@anim@ltxcnt=\count395
-\@anim@curlayer=\count396
-\@anim@lineno=\count397
-\@anim@curfield=\count398
-\@anim@@resizeflags=\count399
+\@anim@tmpcnt=\count388
+\c@@anim@ltxcnt=\count389
+\@anim@curlayer=\count390
+\@anim@lineno=\count391
+\@anim@curfield=\count392
+\@anim@@resizeflags=\count393
 )
-(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/movie15\movie15.sty
-Package: movie15 2012/05/16
-
-(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty
-Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-)
-\@MXV@page=\count400
-\@MXV@adict=\count401
-\@MXV@aadict=\count402
-\@MXV@includes=\count403
-\@MXV@players=\count404
-\@MXV@links=\count405
-\@MXV@width=\dimen319
-\@MXV@height=\dimen320
-\@MXV@depth=\dimen321
-\@MXV@totalheight=\dimen322
-\@MXV@@boxdepth=\dimen323
-\@MXV@traiselen=\dimen324
-\@MXV@braiselen=\dimen325
-\@MXV@start=\dimen326
-\@MXV@end=\dimen327
-\@MXV@textbox=\box91
-) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip67
 \RaggedLeftLeftskip=\skip68
@@ -1774,20 +1740,23 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip78
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
-) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count406
+\multirow@cntb=\count394
 \multirow@dima=\skip82
-\bigstrutjot=\dimen328
-) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+\bigstrutjot=\dimen315
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count407
+\c@r@tfl@t=\count395
 \rotFPtop=\skip83
 \rotFPbot=\skip84
-\rot@float@box=\box92
+\rot@float@box=\box89
 \rot@mess@toks=\toks53
-) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikz-cd.sty
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikz-cd.sty
 Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikzlibrarycd.c
@@ -1803,52 +1772,52 @@ File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen329
-\pgfarrowlength=\dimen330
-\pgfarrowwidth=\dimen331
-\pgfarrowlinewidth=\dimen332
+\pgfarrowinset=\dimen316
+\pgfarrowlength=\dimen317
+\pgfarrowwidth=\dimen318
+\pgfarrowlinewidth=\dimen319
 )))
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen333
-\ar@mcellbox=\box93
-\extrarowheight=\dimen334
+\col@sep=\dimen320
+\ar@mcellbox=\box90
+\extrarowheight=\dimen321
 \NC@list=\toks54
 \extratabsurround=\skip85
 \backup@length=\skip86
-\ar@cellbox=\box94
+\ar@cellbox=\box91
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-10-23 v3.1.9 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen335
-\l__siunitx_angle_marker_box=\box95
-\l__siunitx_angle_unit_box=\box96
-\l__siunitx_compound_count_int=\count408
+\l__siunitx_angle_tmp_dim=\dimen322
+\l__siunitx_angle_marker_box=\box92
+\l__siunitx_angle_unit_box=\box93
+\l__siunitx_compound_count_int=\count396
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count409
-\l__siunitx_number_min_decimal_int=\count410
-\l__siunitx_number_min_integer_int=\count411
-\l__siunitx_number_round_precision_int=\count412
-\l__siunitx_number_group_first_int=\count413
-\l__siunitx_number_group_size_int=\count414
-\l__siunitx_number_group_minimum_int=\count415
-\l__siunitx_table_tmp_box=\box97
-\l__siunitx_table_tmp_dim=\dimen336
-\l__siunitx_table_column_width_dim=\dimen337
-\l__siunitx_table_integer_box=\box98
-\l__siunitx_table_decimal_box=\box99
-\l__siunitx_table_before_box=\box100
-\l__siunitx_table_after_box=\box101
-\l__siunitx_table_before_dim=\dimen338
-\l__siunitx_table_carry_dim=\dimen339
-\l__siunitx_unit_tmp_int=\count416
-\l__siunitx_unit_position_int=\count417
-\l__siunitx_unit_total_int=\count418
+\l__siunitx_number_exponent_fixed_int=\count397
+\l__siunitx_number_min_decimal_int=\count398
+\l__siunitx_number_min_integer_int=\count399
+\l__siunitx_number_round_precision_int=\count400
+\l__siunitx_number_group_first_int=\count401
+\l__siunitx_number_group_size_int=\count402
+\l__siunitx_number_group_minimum_int=\count403
+\l__siunitx_table_tmp_box=\box94
+\l__siunitx_table_tmp_dim=\dimen323
+\l__siunitx_table_column_width_dim=\dimen324
+\l__siunitx_table_integer_box=\box95
+\l__siunitx_table_decimal_box=\box96
+\l__siunitx_table_before_box=\box97
+\l__siunitx_table_after_box=\box98
+\l__siunitx_table_before_dim=\dimen325
+\l__siunitx_table_carry_dim=\dimen326
+\l__siunitx_unit_tmp_int=\count404
+\l__siunitx_unit_position_int=\count405
+\l__siunitx_unit_total_int=\count406
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
@@ -1870,7 +1839,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip87
 \bibsep=\skip88
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count419
+\c@NAT@ctr=\count407
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
 dolphin.sty)
@@ -1938,16 +1907,16 @@ LaTeX Font Info:    ... okay on input line 217.
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count420
-\scratchdimen=\dimen340
-\scratchbox=\box102
-\nofMPsegments=\count421
-\nofMParguments=\count422
+\scratchcounter=\count408
+\scratchdimen=\dimen327
+\scratchbox=\box99
+\nofMPsegments=\count409
+\nofMParguments=\count410
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count423
-\MPscratchDim=\dimen341
-\MPnumerator=\count424
-\makeMPintoPDFobject=\count425
+\MPscratchCnt=\count411
+\MPscratchDim=\dimen328
+\MPnumerator=\count412
+\makeMPintoPDFobject=\count413
 \everyMPtoPDFconversion=\toks56
 )
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1990,7 +1959,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count426
+\c@lstlisting=\count414
 
 (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -2000,26 +1969,55 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 217.
  (main.nav)
-LaTeX Font Info:    Calculating math sizes for size <8.3> on input line 221.
-LaTeX Font Info:    Calculating math sizes for size <6.91> on input line 221.
-<Lambang dan logo UGM/Logo Horizontal Stack-Up.png, id=49, 854.2314pt x 243.549
+LaTeX Font Info:    Calculating math sizes for size <8.3> on input line 220.
+LaTeX Font Info:    Calculating math sizes for size <6.91> on input line 220.
+<Lambang dan logo UGM/Logo Horizontal Stack-Up.png, id=54, 854.2314pt x 243.549
 9pt>
 File: Lambang dan logo UGM/Logo Horizontal Stack-Up.png Graphic file (type png)
 
 <use Lambang dan logo UGM/Logo Horizontal Stack-Up.png>
 Package pdftex.def Info: Lambang dan logo UGM/Logo Horizontal Stack-Up.png  use
-d on input line 221.
+d on input line 220.
 (pdftex.def)             Requested size: 149.68825pt x 42.67912pt.
  [1
 
 {C:/Users/bodhi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Lambang da
 n logo UGM/Logo Horizontal Stack-Up.png>] [2
 
-] (main.toc) [3
+] (main.toc
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 6.
+
+) [3
 
 ] [4
 
-] [5
+]
+<Gambar Lain/Alat/haha-0.png, id=202, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-0.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-0.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-0.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-0.png> <a0,fr0>
+<Gambar Lain/Alat/haha-1.png, id=206, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-1.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-1.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-1.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-1.png> <a0,fr1>
+<Gambar Lain/Alat/haha-2.png, id=210, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-2.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-2.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-2.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-2.png> <a0,fr2>
+<Gambar Lain/Alat/haha-3.png, id=214, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-3.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-3.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-3.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-3.png> <a0,fr3> <a0,fr4> <a0,fr5> <a0,fr6> [5
 
 ] [6
 
@@ -2030,7 +2028,7 @@ Overfull \hbox (18.81657pt too wide) in paragraph at lines 265--265
 []  
  []
 
-<Gambar Lain/Struktur.png, id=263, 1626.075pt x 853.68938pt>
+<Gambar Lain/Struktur.png, id=298, 1626.075pt x 853.68938pt>
 File: Gambar Lain/Struktur.png Graphic file (type png)
 <use Gambar Lain/Struktur.png>
 Package pdftex.def Info: Gambar Lain/Struktur.png  used on input line 265.
@@ -2045,13 +2043,7 @@ Overfull \hbox (4.48038pt too wide) in paragraph at lines 265--265
  <./Gambar Lain/Struktur.png>]
 LaTeX Font Info:    Calculating math sizes for size <4.8> on input line 318.
 LaTeX Font Info:    Calculating math sizes for size <11.94> on input line 318.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 318.
-
-
-[8
+ [8
 
 ] [9
 
@@ -2068,275 +2060,275 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <14.33> not available
 ] [12
 
 ]
-<Gambar Lain/posComp/posComp-0.png, id=458, 642.4pt x 361.35pt>
+<Gambar Lain/posComp/posComp-0.png, id=492, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-0.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-0.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-0.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-0.png> <a0,fr0>
-<Gambar Lain/posComp/posComp-1.png, id=462, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-0.png> <a1,fr0>
+<Gambar Lain/posComp/posComp-1.png, id=496, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-1.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-1.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-1.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-1.png> <a0,fr1>
-<Gambar Lain/posComp/posComp-2.png, id=466, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-1.png> <a1,fr1>
+<Gambar Lain/posComp/posComp-2.png, id=500, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-2.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-2.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-2.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-2.png> <a0,fr2>
-<Gambar Lain/posComp/posComp-3.png, id=470, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-2.png> <a1,fr2>
+<Gambar Lain/posComp/posComp-3.png, id=504, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-3.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-3.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-3.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-3.png> <a0,fr3>
-<Gambar Lain/posComp/posComp-4.png, id=474, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-3.png> <a1,fr3>
+<Gambar Lain/posComp/posComp-4.png, id=508, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-4.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-4.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-4.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-4.png> <a0,fr4>
-<Gambar Lain/posComp/posComp-5.png, id=478, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-4.png> <a1,fr4>
+<Gambar Lain/posComp/posComp-5.png, id=512, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-5.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-5.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-5.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-5.png> <a0,fr5>
-<Gambar Lain/posComp/posComp-6.png, id=482, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-5.png> <a1,fr5>
+<Gambar Lain/posComp/posComp-6.png, id=516, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-6.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-6.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-6.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-6.png> <a0,fr6>
-<Gambar Lain/posComp/posComp-7.png, id=486, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-6.png> <a1,fr6>
+<Gambar Lain/posComp/posComp-7.png, id=520, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-7.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-7.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-7.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-7.png> <a0,fr7>
-<Gambar Lain/posComp/posComp-8.png, id=490, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-7.png> <a1,fr7>
+<Gambar Lain/posComp/posComp-8.png, id=524, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-8.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-8.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-8.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-8.png> <a0,fr8>
-<Gambar Lain/posComp/posComp-9.png, id=494, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-8.png> <a1,fr8>
+<Gambar Lain/posComp/posComp-9.png, id=528, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-9.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-9.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-9.png  used on input line 
 422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-9.png> <a0,fr9>
-<Gambar Lain/posComp/posComp-10.png, id=498, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-9.png> <a1,fr9>
+<Gambar Lain/posComp/posComp-10.png, id=532, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-10.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-10.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-10.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-10.png> <a0,fr10>
-<Gambar Lain/posComp/posComp-11.png, id=502, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-10.png> <a1,fr10>
+<Gambar Lain/posComp/posComp-11.png, id=536, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-11.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-11.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-11.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-11.png> <a0,fr11>
-<Gambar Lain/posComp/posComp-12.png, id=506, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-11.png> <a1,fr11>
+<Gambar Lain/posComp/posComp-12.png, id=540, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-12.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-12.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-12.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-12.png> <a0,fr12>
-<Gambar Lain/posComp/posComp-13.png, id=510, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-12.png> <a1,fr12>
+<Gambar Lain/posComp/posComp-13.png, id=544, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-13.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-13.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-13.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-13.png> <a0,fr13>
-<Gambar Lain/posComp/posComp-14.png, id=514, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-13.png> <a1,fr13>
+<Gambar Lain/posComp/posComp-14.png, id=548, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-14.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-14.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-14.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-14.png> <a0,fr14>
-<Gambar Lain/posComp/posComp-15.png, id=518, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-14.png> <a1,fr14>
+<Gambar Lain/posComp/posComp-15.png, id=552, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-15.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-15.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-15.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-15.png> <a0,fr15>
-<Gambar Lain/posComp/posComp-16.png, id=522, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-15.png> <a1,fr15>
+<Gambar Lain/posComp/posComp-16.png, id=556, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-16.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-16.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-16.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-16.png> <a0,fr16>
-<Gambar Lain/posComp/posComp-17.png, id=526, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-16.png> <a1,fr16>
+<Gambar Lain/posComp/posComp-17.png, id=560, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-17.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-17.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-17.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
  <./Gambar Lain/posComp/posComp-17.png>
-<a0,fr17>
-<Gambar Lain/posComp/posComp-18.png, id=530, 642.4pt x 361.35pt>
+<a1,fr17>
+<Gambar Lain/posComp/posComp-18.png, id=564, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-18.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-18.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-18.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-18.png> <a0,fr18>
-<Gambar Lain/posComp/posComp-19.png, id=534, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-18.png> <a1,fr18>
+<Gambar Lain/posComp/posComp-19.png, id=568, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-19.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-19.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-19.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-19.png> <a0,fr19>
-<Gambar Lain/posComp/posComp-20.png, id=538, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-19.png> <a1,fr19>
+<Gambar Lain/posComp/posComp-20.png, id=572, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-20.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-20.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-20.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-20.png> <a0,fr20>
-<Gambar Lain/posComp/posComp-21.png, id=542, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-20.png> <a1,fr20>
+<Gambar Lain/posComp/posComp-21.png, id=576, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-21.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-21.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-21.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-21.png> <a0,fr21>
-<Gambar Lain/posComp/posComp-22.png, id=546, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-21.png> <a1,fr21>
+<Gambar Lain/posComp/posComp-22.png, id=580, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-22.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-22.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-22.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-22.png> <a0,fr22>
-<Gambar Lain/posComp/posComp-23.png, id=550, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-22.png> <a1,fr22>
+<Gambar Lain/posComp/posComp-23.png, id=584, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-23.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-23.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-23.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-23.png> <a0,fr23>
-<Gambar Lain/posComp/posComp-24.png, id=554, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-23.png> <a1,fr23>
+<Gambar Lain/posComp/posComp-24.png, id=588, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-24.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-24.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-24.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-24.png> <a0,fr24>
-<Gambar Lain/posComp/posComp-25.png, id=558, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-24.png> <a1,fr24>
+<Gambar Lain/posComp/posComp-25.png, id=592, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-25.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-25.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-25.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
  <./Gambar Lain/posComp/posComp-25.png>
-<a0,fr25>
-<Gambar Lain/posComp/posComp-26.png, id=562, 642.4pt x 361.35pt>
+<a1,fr25>
+<Gambar Lain/posComp/posComp-26.png, id=596, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-26.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-26.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-26.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-26.png> <a0,fr26>
-<Gambar Lain/posComp/posComp-27.png, id=566, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-26.png> <a1,fr26>
+<Gambar Lain/posComp/posComp-27.png, id=600, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-27.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-27.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-27.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-27.png> <a0,fr27>
-<Gambar Lain/posComp/posComp-28.png, id=570, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-27.png> <a1,fr27>
+<Gambar Lain/posComp/posComp-28.png, id=604, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-28.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-28.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-28.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-28.png> <a0,fr28>
-<Gambar Lain/posComp/posComp-29.png, id=574, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-28.png> <a1,fr28>
+<Gambar Lain/posComp/posComp-29.png, id=608, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-29.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-29.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-29.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-29.png> <a0,fr29>
-<Gambar Lain/posComp/posComp-30.png, id=578, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-29.png> <a1,fr29>
+<Gambar Lain/posComp/posComp-30.png, id=612, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-30.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-30.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-30.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-30.png> <a0,fr30>
-<Gambar Lain/posComp/posComp-31.png, id=582, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-30.png> <a1,fr30>
+<Gambar Lain/posComp/posComp-31.png, id=616, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-31.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-31.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-31.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-31.png> <a0,fr31>
-<Gambar Lain/posComp/posComp-32.png, id=586, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-31.png> <a1,fr31>
+<Gambar Lain/posComp/posComp-32.png, id=620, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-32.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-32.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-32.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-32.png> <a0,fr32>
-<Gambar Lain/posComp/posComp-33.png, id=590, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-32.png> <a1,fr32>
+<Gambar Lain/posComp/posComp-33.png, id=624, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-33.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-33.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-33.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
  <./Gambar Lain/posComp/posComp-33.png>
-<a0,fr33>
-<Gambar Lain/posComp/posComp-34.png, id=594, 642.4pt x 361.35pt>
+<a1,fr33>
+<Gambar Lain/posComp/posComp-34.png, id=628, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-34.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-34.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-34.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-34.png> <a0,fr34>
-<Gambar Lain/posComp/posComp-35.png, id=598, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-34.png> <a1,fr34>
+<Gambar Lain/posComp/posComp-35.png, id=632, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-35.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-35.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-35.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-35.png> <a0,fr35>
-<Gambar Lain/posComp/posComp-36.png, id=602, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-35.png> <a1,fr35>
+<Gambar Lain/posComp/posComp-36.png, id=636, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-36.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-36.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-36.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-36.png> <a0,fr36>
-<Gambar Lain/posComp/posComp-37.png, id=606, 642.4pt x 361.35pt>
+ <./Gambar Lain/posComp/posComp-36.png> <a1,fr36>
+<Gambar Lain/posComp/posComp-37.png, id=640, 642.4pt x 361.35pt>
 File: Gambar Lain/posComp/posComp-37.png Graphic file (type png)
 <use Gambar Lain/posComp/posComp-37.png>
 Package pdftex.def Info: Gambar Lain/posComp/posComp-37.png  used on input line
  422.
 (pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
- <./Gambar Lain/posComp/posComp-37.png> <a0,fr37> [13
+ <./Gambar Lain/posComp/posComp-37.png> <a1,fr37> [13
 
 ] [14
 
@@ -2347,228 +2339,196 @@ Package pdftex.def Info: Gambar Lain/posComp/posComp-37.png  used on input line
 ] [17
 
 ]
-(Matlab/olDCmotor.m) (Matlab/clDCspeed.m) [18
+(Matlab/olDCmotor.m
+
+LaTeX Font Warning: Font shape `OT1/cmtt/bx/n' in size <5.76> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
+
+) (Matlab/clDCspeed.m) [18
 
 ]
-<Matlab/olDCSpeed.png, id=833, 526.96875pt x 395.22656pt>
+<Matlab/olDCSpeed.png, id=867, 526.96875pt x 395.22656pt>
 File: Matlab/olDCSpeed.png Graphic file (type png)
 <use Matlab/olDCSpeed.png>
-Package pdftex.def Info: Matlab/olDCSpeed.png  used on input line 586.
+Package pdftex.def Info: Matlab/olDCSpeed.png  used on input line 585.
 (pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 586--586
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 585--585
 []  
  []
 
-<Matlab/clDCSpeed.png, id=834, 526.96875pt x 395.22656pt>
+<Matlab/clDCSpeed.png, id=868, 526.96875pt x 395.22656pt>
 File: Matlab/clDCSpeed.png Graphic file (type png)
 <use Matlab/clDCSpeed.png>
-Package pdftex.def Info: Matlab/clDCSpeed.png  used on input line 586.
+Package pdftex.def Info: Matlab/clDCSpeed.png  used on input line 585.
 (pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 586--586
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 585--585
 []  
  []
 
 [19
 
  <./Matlab/olDCSpeed.png (PNG copy)> <./Matlab/clDCSpeed.png (PNG copy)>]
-(Matlab/PIDSpeed.m
-
-LaTeX Font Warning: Font shape `OT1/cmtt/bx/n' in size <5.76> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 16.
-
-)
-<Matlab/PIDSpeed.png, id=864, 526.96875pt x 395.22656pt>
-File: Matlab/PIDSpeed.png Graphic file (type png)
-<use Matlab/PIDSpeed.png>
-Package pdftex.def Info: Matlab/PIDSpeed.png  used on input line 604.
+(Matlab/PIDpos.m)
+<Matlab/PIDpos.png, id=897, 526.96875pt x 395.22656pt>
+File: Matlab/PIDpos.png Graphic file (type png)
+<use Matlab/PIDpos.png>
+Package pdftex.def Info: Matlab/PIDpos.png  used on input line 602.
 (pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 604--604
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 602--602
  [] 
  []
 
 
-Overfull \vbox (2.03111pt too high) detected at line 604
+Overfull \vbox (2.03111pt too high) detected at line 602
  []
 
 [20
 
- <./Matlab/PIDSpeed.png (PNG copy)>] (Matlab/PIDpos.m)
-<Matlab/PIDpos.png, id=893, 526.96875pt x 395.22656pt>
-File: Matlab/PIDpos.png Graphic file (type png)
-<use Matlab/PIDpos.png>
-Package pdftex.def Info: Matlab/PIDpos.png  used on input line 622.
-(pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
+ <./Matlab/PIDpos.png (PNG copy)>] [21
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 622--622
- [] 
- []
+]
+<Gambar Lain/diagram.png, id=964, 2168.1pt x 1220.56pt>
+File: Gambar Lain/diagram.png Graphic file (type png)
+<use Gambar Lain/diagram.png>
+Package pdftex.def Info: Gambar Lain/diagram.png  used on input line 608.
+(pdftex.def)             Requested size: 341.43306pt x 192.20197pt.
+ [22
 
+ <./Gambar Lain/diagram.png>]
+<Render/Main Board_v3 (Home).png, id=994, 1264.725pt x 581.17125pt>
+File: Render/Main Board_v3 (Home).png Graphic file (type png)
+<use Render/Main Board_v3 (Home).png>
+Package pdftex.def Info: Render/Main Board_v3 (Home).png  used on input line 62
+3.
+(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
 
-Overfull \vbox (2.03111pt too high) detected at line 622
- []
-
-[21
-
- <./Matlab/PIDpos.png (PNG copy)>]
-<Matlab/simulink2.jpg, id=922, 289.58188pt x 142.03062pt>
-File: Matlab/simulink2.jpg Graphic file (type jpg)
-<use Matlab/simulink2.jpg>
-Package pdftex.def Info: Matlab/simulink2.jpg  used on input line 640.
-(pdftex.def)             Requested size: 213.39566pt x 104.66322pt.
-
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 640--640
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 623--623
 []  
  []
 
-<Matlab/simulink3.jpg, id=923, 736.7525pt x 236.885pt>
-File: Matlab/simulink3.jpg Graphic file (type jpg)
-<use Matlab/simulink3.jpg>
-Package pdftex.def Info: Matlab/simulink3.jpg  used on input line 640.
-(pdftex.def)             Requested size: 213.39566pt x 68.61174pt.
+<Render/Feedback Actuator UNIT ES151(Home).png, id=995, 1264.725pt x 581.17125p
+t>
+File: Render/Feedback Actuator UNIT ES151(Home).png Graphic file (type png)
+<use Render/Feedback Actuator UNIT ES151(Home).png>
+Package pdftex.def Info: Render/Feedback Actuator UNIT ES151(Home).png  used on
+ input line 623.
+(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 640--640
- [] 
- []
-
-[22
-
- <./Matlab/simulink2.jpg> <./Matlab/simulink3.jpg>]
-<Matlab/simulink1.jpg, id=951, 837.1275pt x 278.54062pt>
-File: Matlab/simulink1.jpg Graphic file (type jpg)
-<use Matlab/simulink1.jpg>
-Package pdftex.def Info: Matlab/simulink1.jpg  used on input line 658.
-(pdftex.def)             Requested size: 213.39566pt x 71.00354pt.
-
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 658--658
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 623--623
 []  
- []
-
-<Matlab/simulink4.jpg, id=952, 710.655pt x 352.31625pt>
-File: Matlab/simulink4.jpg Graphic file (type jpg)
-<use Matlab/simulink4.jpg>
-Package pdftex.def Info: Matlab/simulink4.jpg  used on input line 658.
-(pdftex.def)             Requested size: 213.39566pt x 105.79245pt.
-
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 658--658
- [] 
  []
 
 [23
 
- <./Matlab/simulink1.jpg> <./Matlab/simulink4.jpg>] [24
-
-]
-<Gambar Lain/diagram.png, id=1019, 2168.1pt x 1220.56pt>
-File: Gambar Lain/diagram.png Graphic file (type png)
-<use Gambar Lain/diagram.png>
-Package pdftex.def Info: Gambar Lain/diagram.png  used on input line 667.
-(pdftex.def)             Requested size: 341.43306pt x 192.20197pt.
- [25
-
- <./Gambar Lain/diagram.png>]
-<Gambar Lain/KONTORU.jpg, id=1050, 1284.8pt x 722.7pt>
+ <./Render/Main Board_v3 (Home).png> <./Render/Feedback Actuator UNIT ES151(Hom
+e).png>]
+<Gambar Lain/KONTORU.jpg, id=1024, 1284.8pt x 722.7pt>
 File: Gambar Lain/KONTORU.jpg Graphic file (type jpg)
 <use Gambar Lain/KONTORU.jpg>
-Package pdftex.def Info: Gambar Lain/KONTORU.jpg  used on input line 700.
-(pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
+Package pdftex.def Info: Gambar Lain/KONTORU.jpg  used on input line 655.
+(pdftex.def)             Requested size: 284.52756pt x 160.0421pt.
 
-Overfull \hbox (18.70676pt too wide) in paragraph at lines 700--700
+Overfull \hbox (23.37848pt too wide) in paragraph at lines 655--655
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--700
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 []|\OT1/cmss/bx/n/9.95 Input-
  []
 
 
-Overfull \hbox (4.2442pt too wide) in paragraph at lines 700--700
+Overfull \hbox (4.2442pt too wide) in paragraph at lines 655--655
 \OT1/cmss/bx/n/9.95 Output| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--700
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 []|\OT1/cmss/m/sl/9.95 Time Sam-
  []
 
+[24
 
-Underfull \hbox (badness 1661) in paragraph at lines 700--700
-[]|\OT1/cmss/m/n/9.95 52, 50, 48,
+ <./Gambar Lain/KONTORU.jpg>]
+<Gambar Lain/TampakDepan.jpeg, id=1052, 1606.0pt x 904.37875pt>
+File: Gambar Lain/TampakDepan.jpeg Graphic file (type jpg)
+<use Gambar Lain/TampakDepan.jpeg>
+Package pdftex.def Info: Gambar Lain/TampakDepan.jpeg  used on input line 670.
+(pdftex.def)             Requested size: 213.39566pt x 120.16771pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 670--670
+[]  
  []
 
+<Gambar Lain/TampakAtas.jpeg, id=1053, 1160.335pt x 653.44125pt>
+File: Gambar Lain/TampakAtas.jpeg Graphic file (type jpg)
+<use Gambar Lain/TampakAtas.jpeg>
+Package pdftex.def Info: Gambar Lain/TampakAtas.jpeg  used on input line 670.
+(pdftex.def)             Requested size: 213.39566pt x 120.16684pt.
 
-Underfull \hbox (badness 1661) in paragraph at lines 700--700
-\OT1/cmss/m/n/9.95 46, 44, 42,
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 670--670
+[]  
  []
+
+[25
+
+ <./Gambar Lain/TampakDepan.jpeg> <./Gambar Lain/TampakAtas.jpeg>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <11.94> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 671.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 671.
 
 [26
 
- <./Gambar Lain/KONTORU.jpg>]
-<Render/Main Board_v3 (Home).png, id=1079, 1264.725pt x 581.17125pt>
-File: Render/Main Board_v3 (Home).png Graphic file (type png)
-<use Render/Main Board_v3 (Home).png>
-Package pdftex.def Info: Render/Main Board_v3 (Home).png  used on input line 71
-5.
-(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
+]
+<Tampilan GUI/GUI.png, id=1124, 947.33925pt x 529.98pt>
+File: Tampilan GUI/GUI.png Graphic file (type png)
+<use Tampilan GUI/GUI.png>
+Package pdftex.def Info: Tampilan GUI/GUI.png  used on input line 686.
+(pdftex.def)             Requested size: 398.33858pt x 222.84885pt.
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 715--715
-[]  
- []
-
-<Render/Feedback Actuator UNIT ES151(Home).png, id=1080, 1264.725pt x 581.17125
-pt>
-File: Render/Feedback Actuator UNIT ES151(Home).png Graphic file (type png)
-<use Render/Feedback Actuator UNIT ES151(Home).png>
-Package pdftex.def Info: Render/Feedback Actuator UNIT ES151(Home).png  used on
- input line 715.
-(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
-
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 715--715
-[]  
+Overfull \vbox (18.34468pt too high) detected at line 686
  []
 
 [27
 
- <./Render/Main Board_v3 (Home).png> <./Render/Feedback Actuator UNIT ES151(Hom
-e).png>]
-<Gambar Lain/TampakDepan.jpeg, id=1108, 1606.0pt x 904.37875pt>
-File: Gambar Lain/TampakDepan.jpeg Graphic file (type jpg)
-<use Gambar Lain/TampakDepan.jpeg>
-Package pdftex.def Info: Gambar Lain/TampakDepan.jpeg  used on input line 731.
-(pdftex.def)             Requested size: 213.39566pt x 120.16771pt.
+ <./Tampilan GUI/GUI.png>] [28
 
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 731--731
-[]  
- []
+] [29
 
-<Gambar Lain/TampakAtas.jpeg, id=1109, 1160.335pt x 653.44125pt>
-File: Gambar Lain/TampakAtas.jpeg Graphic file (type jpg)
-<use Gambar Lain/TampakAtas.jpeg>
-Package pdftex.def Info: Gambar Lain/TampakAtas.jpeg  used on input line 731.
-(pdftex.def)             Requested size: 213.39566pt x 120.16684pt.
-
-Overfull \hbox (4.48038pt too wide) in paragraph at lines 731--731
-[]  
- []
-
-[28
-
- <./Gambar Lain/TampakDepan.jpeg> <./Gambar Lain/TampakAtas.jpeg>] [29
+] [30
 
 ]
-<Tampilan GUI/WANNATHISGUI.png, id=1174, 639.5895pt x 430.60875pt>
-File: Tampilan GUI/WANNATHISGUI.png Graphic file (type png)
-<use Tampilan GUI/WANNATHISGUI.png>
-Package pdftex.def Info: Tampilan GUI/WANNATHISGUI.png  used on input line 742.
+<Gambar Lain/Terima Kasih/giphy-0.png, id=1252, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-0.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-0.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-0.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-0.png> <a2,fr0>
+<Gambar Lain/Terima Kasih/giphy-1.png, id=1256, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-1.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-1.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-1.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-1.png> <a2,fr1>
+<Gambar Lain/Terima Kasih/giphy-2.png, id=1260, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-2.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-2.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-2.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-2.png> <a2,fr2> [31
 
-(pdftex.def)             Requested size: 227.62204pt x 153.24496pt.
-
-[30
-
- <./Tampilan GUI/WANNATHISGUI.png>]
+]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -2578,25 +2538,21 @@ Package pdftex.def Info: Tampilan GUI/WANNATHISGUI.png  used on input line 742.
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
+ (main.aux)
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Package `movie15' is obsolete and @@
-(movie15)                @@ superseded by `media9'.           @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-(main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A8A72D87616D47D8A5221F02D4A99C2D;975.
+(rerunfilecheck)             Checksum: C2EC67D38B1C1F1A0011DDB8AE806C44;1165.
  ) 
 Here is how much of TeX's memory you used:
- 44995 strings out of 475380
- 925841 string characters out of 2776772
- 1483522 words of memory out of 3000000
- 65468 multiletter control sequences out of 15000+600000
- 518358 words of font info for 196 fonts, out of 8000000 for 9000
+ 44049 strings out of 475380
+ 904138 string characters out of 2776772
+ 1433475 words of memory out of 3000000
+ 64514 multiletter control sequences out of 15000+600000
+ 518881 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,26n,122p,2703b,2284s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,26n,122p,2703b,2313s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymb
 olC.enc}{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/
 MnSymbolE.enc}{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mns
@@ -2618,13 +2574,15 @@ TeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/bodhi/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/bodhi/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/bodhi/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Us
-ers/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.
+ers/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmssi9.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmtt8.pfb>
-Output written on main.pdf (30 pages, 6124446 bytes).
+m/cmssi12.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmssi9.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (31 pages, 13175783 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 840 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1411 PDF objects out of 1440 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 956 words of extra memory for PDF output out of 10000 (max. 10000000)
 
