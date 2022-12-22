@@ -1,0 +1,2588 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.3)  23 DEC 2022 06:46
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-10-26>
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2022/09/13 v3.68 A class for typesetting presentations
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count186
+\c@beamerpauses=\count187
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty
+\beamer@slideinframe=\count188
+\beamer@minimum=\count189
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count190
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count191
+\beamer@subsubsectionmax=\count192
+\beamer@subsectionmax=\count193
+\beamer@sectionmax=\count194
+\beamer@totalheads=\count195
+\beamer@headcounter=\count196
+\beamer@partstartpage=\count197
+\beamer@sectionstartpage=\count198
+\beamer@subsectionstartpage=\count199
+\beamer@animationtempa=\count266
+\beamer@animationtempb=\count267
+\beamer@xpos=\count268
+\beamer@ypos=\count269
+\beamer@ypos@offset=\count270
+\beamer@showpartnumber=\count271
+\beamer@currentsubsection=\count272
+\beamer@coveringdepth=\count273
+\beamer@sectionadjust=\count274
+\beamer@toclastsection=\count275
+\beamer@tocsectionnumber=\count276
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks17
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box60
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks21
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex
+\pgf@x=\dimen164
+\pgf@xa=\dimen165
+\pgf@xb=\dimen166
+\pgf@xc=\dimen167
+\pgf@y=\dimen168
+\pgf@ya=\dimen169
+\pgf@yb=\dimen170
+\pgf@yc=\dimen171
+\c@pgf@counta=\count280
+\c@pgf@countb=\count281
+\c@pgf@countc=\count282
+\c@pgf@countd=\count283
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count284
+\pgfmath@box=\box61
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen173
+\stockheight=\dimen174
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count286
+\c@pgf@countb=\count287
+\c@pgf@countc=\count288
+\c@pgf@countd=\count289
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count290
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count291
+\pgfsyssoftpath@bigbuffer@items=\count292
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count293
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen261
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen265
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box65
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count296
+\XC@countmixins=\count297
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count298
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count299
+\Hy@pagecounter=\count300
+ (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count301
+ (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4045.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4045.
+Package hyperref Info: Option `implicit' set `false' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count302
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen268
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count303
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+\Hy@abspage=\count304
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+Package: sansmathaccent 2020/01/31
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+)))))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty
+\beamer@argscount=\count307
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count308
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty
+\c@lecture=\count309
+\c@part=\count310
+\c@section=\count311
+\c@subsection=\count312
+\c@subsubsection=\count313
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count314
+\beamer@zoomframecount=\count315
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count316
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks29
+\framewidth=\dimen272
+\c@framenumber=\count317
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty
+\beamer@verbatimfileout=\write4
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count318
+\beamer@autobreaklastheight=\dimen273
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty
+\beamer@footins=\box70
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty
+\beamer@frameboxcopy=\box71
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+\beamer@sbttoks=\toks32
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
+)
+\beamer@blockheadheight=\dimen281
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count319
+\c@table=\count320
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+\beamer@section@min@dim=\dimen282
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen283
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count321
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count322
+\leftroot@=\count323
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count324
+\DOTSCASE@=\count325
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count326
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count327
+\dotsspace@=\muskip17
+\c@parentequation=\count328
+\dspbrk@lvl=\count329
+\tag@help=\toks35
+\row@=\count330
+\column@=\count331
+\maxfields@=\count332
+\andhelp@=\toks36
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks37
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks44
+)
+\c@theorem=\count333
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemesplit
+.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+split.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemes
+tructurebold.sty))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamerposter\beamerpost
+er.sty
+Package: beamerposter 2018/04/23 v.1.13 latex-beamer poster extension
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count334
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/type1cm\type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count335
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count336
+\FP@xia=\count337
+\FP@xib=\count338
+\FP@xfa=\count339
+\FP@xfb=\count340
+\FP@rega=\count341
+\FP@regb=\count342
+\FP@regs=\count343
+\FP@times=\count344
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count345
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+Package beamerposter Info: checking size input, please wait. on input line 129.
+
+Package beamerposter Info: the input a0\ 1\ was correct, we proceed. on input l
+ine 129.
+Package beamerposter Info: finished size input check. on input line 129.
+Package beamerposter Info: myfontscale=1.0 on input line 129.
+Package beamerposter Info: checking orientation input, please wait. on input li
+ne 130.
+Package beamerposter Info: the input landscape\ 1\ was correct, we proceed. on 
+input line 130.
+Package beamerposter Info: finished orientation check. on input line 130.
+Package beamerposter Info: checking size input, please wait. on input line 130.
+
+Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inp
+ut line 130.
+Package beamerposter Info: finished size input check. on input line 130.
+Package beamerposter Info: custom poster width=16 on input line 130.
+Package beamerposter Info: custom poster height=9 on input line 130.
+Package beamerposter Info: myfontscale=0.4 on input line 130.
+Package beamerposter Info: enabled debug mode on input line 130.
+
+( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontscale * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.4"
+FP debug: upn: calculating "fontscale"
+FP debug: upn: result      "1.0"
+FP debug: upn: calculating "1.0 mul 0.4"
+( FP-MUL )
+FP debug: upn: result      "0.400000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.400000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.40"
+FP debug: upn: +++ result of upn-expression is "(0.40)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customwidth -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customwidth"
+FP debug: upn: result      "16"
+FP debug: upn: calculating "16 sub 1"
+( FP-SUB )
+FP debug: upn: result      "15.000000000000000000"
+FP debug: upn: +++ result of upn-expression is "(15.000000000000000000)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customheight -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customheight"
+FP debug: upn: result      "9"
+FP debug: upn: calculating "9 sub 1"
+( FP-SUB )
+FP debug: upn: result      "8.000000000000000000"
+FP debug: upn: +++ result of upn-expression is "(8.000000000000000000)"
+)
+Package beamerposter Info: paperwidth=455.24408pt, paperheight=256.0748pt on in
+put line 173.
+Package beamerposter Info: textwidth=426.79134pt, textheight=227.62204pt on inp
+ut line 174.
+Package beamerposter Info: fontscale=1.0, myfontscale=0.40 on input line 175.
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "12"
+FP debug: upn: calculating "12 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "4.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(4.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "4.80"
+FP debug: upn: +++ result of upn-expression is "(4.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "14"
+FP debug: upn: calculating "14 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "5.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(5.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "5.60"
+FP debug: upn: +++ result of upn-expression is "(5.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "14.4"
+FP debug: upn: calculating "14.4 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "5.760000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(5.760000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "5.76"
+FP debug: upn: +++ result of upn-expression is "(5.76)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "18"
+FP debug: upn: calculating "18 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "7.200000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(7.200000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "7.20"
+FP debug: upn: +++ result of upn-expression is "(7.20)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "17.28"
+FP debug: upn: calculating "17.28 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "6.912000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(6.912000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "6.91"
+FP debug: upn: +++ result of upn-expression is "(6.91)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "22"
+FP debug: upn: calculating "22 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "8.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(8.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "8.80"
+FP debug: upn: +++ result of upn-expression is "(8.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "20.74"
+FP debug: upn: calculating "20.74 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "8.296000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(8.296000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "8.30"
+FP debug: upn: +++ result of upn-expression is "(8.30)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "25"
+FP debug: upn: calculating "25 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "10.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(10.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "10.00"
+FP debug: upn: +++ result of upn-expression is "(10.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "24.88"
+FP debug: upn: calculating "24.88 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "9.952000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(9.952000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "9.95"
+FP debug: upn: +++ result of upn-expression is "(9.95)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "30"
+FP debug: upn: calculating "30 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "12.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(12.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "12.00"
+FP debug: upn: +++ result of upn-expression is "(12.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "29.86"
+FP debug: upn: calculating "29.86 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "11.944000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(11.944000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "11.94"
+FP debug: upn: +++ result of upn-expression is "(11.94)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "37"
+FP debug: upn: calculating "37 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "14.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(14.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "14.80"
+FP debug: upn: +++ result of upn-expression is "(14.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "35.83"
+FP debug: upn: calculating "35.83 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "14.332000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(14.332000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "14.33"
+FP debug: upn: +++ result of upn-expression is "(14.33)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "45"
+FP debug: upn: calculating "45 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "18.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(18.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "18.00"
+FP debug: upn: +++ result of upn-expression is "(18.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "43"
+FP debug: upn: calculating "43 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "17.200000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(17.200000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "17.20"
+FP debug: upn: +++ result of upn-expression is "(17.20)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "54"
+FP debug: upn: calculating "54 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "21.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(21.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "21.60"
+FP debug: upn: +++ result of upn-expression is "(21.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "51.6"
+FP debug: upn: calculating "51.6 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "20.640000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(20.640000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "20.64"
+FP debug: upn: +++ result of upn-expression is "(20.64)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "64"
+FP debug: upn: calculating "64 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "25.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(25.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "25.60"
+FP debug: upn: +++ result of upn-expression is "(25.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "61.92"
+FP debug: upn: calculating "61.92 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "24.768000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(24.768000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "24.77"
+FP debug: upn: +++ result of upn-expression is "(24.77)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "77"
+FP debug: upn: calculating "77 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "30.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(30.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "30.80"
+FP debug: upn: +++ result of upn-expression is "(30.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "74.3"
+FP debug: upn: calculating "74.3 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "29.720000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(29.720000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "29.72"
+FP debug: upn: +++ result of upn-expression is "(29.72)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "93"
+FP debug: upn: calculating "93 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "37.200000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(37.200000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "37.20"
+FP debug: upn: +++ result of upn-expression is "(37.20)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "89.16"
+FP debug: upn: calculating "89.16 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "35.664000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(35.664000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "35.66"
+FP debug: upn: +++ result of upn-expression is "(35.66)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "112"
+FP debug: upn: calculating "112 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "44.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(44.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "44.80"
+FP debug: upn: +++ result of upn-expression is "(44.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "107"
+FP debug: upn: calculating "107 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "42.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(42.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "42.80"
+FP debug: upn: +++ result of upn-expression is "(42.80)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "134"
+FP debug: upn: calculating "134 mul 0.40"
+( FP-MUL )
+FP debug: upn: result      "53.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(53.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "53.60"
+FP debug: upn: +++ result of upn-expression is "(53.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelWidthValue myfontscale * 2 ro
+und"
+FP debug: upn: calculating "labelWidthValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 1"
+( FP-MUL )
+FP debug: upn: result      "0.400000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.400000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.40"
+FP debug: upn: +++ result of upn-expression is "(0.40)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelSepValue myfontscale * 2 roun
+d"
+FP debug: upn: calculating "labelSepValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 1"
+( FP-MUL )
+FP debug: upn: result      "0.400000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.400000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.40"
+FP debug: upn: +++ result of upn-expression is "(0.40)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValuei myfontscale *
+ 2 round"
+FP debug: upn: calculating "indentionLevelValuei"
+FP debug: upn: result      "4"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 4"
+( FP-MUL )
+FP debug: upn: result      "1.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.60"
+FP debug: upn: +++ result of upn-expression is "(1.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueii myfontscale 
+* 2 round"
+FP debug: upn: calculating "indentionLevelValueii"
+FP debug: upn: result      "2.2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 2.2"
+( FP-MUL )
+FP debug: upn: result      "0.880000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.880000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.88"
+FP debug: upn: +++ result of upn-expression is "(0.88)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueiii myfontscale
+ * 2 round"
+FP debug: upn: calculating "indentionLevelValueiii"
+FP debug: upn: result      "1.87"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 1.87"
+( FP-MUL )
+FP debug: upn: result      "0.748000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.748000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.75"
+FP debug: upn: +++ result of upn-expression is "(0.75)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "bibIconScaleValue myfontscale * 2 
+round"
+FP debug: upn: calculating "bibIconScaleValue"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "0.40"
+FP debug: upn: calculating "0.40 mul 2"
+( FP-MUL )
+FP debug: upn: result      "0.800000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(0.800000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "0.80"
+FP debug: upn: +++ result of upn-expression is "(0.80)"
+)) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count346
+\lst@gtempboxa=\box76
+\lst@token=\toks49
+\lst@length=\count347
+\lst@currlwidth=\dimen294
+\lst@column=\count348
+\lst@pos=\count349
+\lst@lostspace=\dimen295
+\lst@width=\dimen296
+\lst@newlines=\count350
+\lst@lineno=\count351
+\lst@maxwidth=\dimen297
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count352
+\lst@skipnumbers=\count353
+\lst@framebox=\box77
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/xsavebox\xsavebox.sty
+Package: xsavebox 2022/08/04 v0.18 saveboxes for repeating content without code
+ replication
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count354
+\l__pdf_internal_box=\box78
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty
+Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count355
+\g_pbs_oc_int=\count356
+)
+\g_xsb_id_int=\count357
+\l_xsb_box=\box79
+\l_xsb_raw_box=\box80
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/mnsymbol\MnSymbol.sty
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup6
+\symMnSyB=\mathgroup7
+\symMnSyC=\mathgroup8
+\symMnSyD=\mathgroup9
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+\mm@movie=\count358
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintexpr.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintfrac.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xint.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintcore.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintkernel.sty
+Package: xintkernel 2022/06/10 v1.4m Paraphernalia for the xint packages (JFB)
+\xint_c_ii^xiv=\count359
+\xint_c_ii^xxi=\count360
+)
+Package: xintcore 2022/06/10 v1.4m Expandable arithmetic on big integers (JFB)
+\xint_c_x^viii=\count361
+\xint_c_x^ix=\count362
+\xint_c_x^viii_mone=\count363
+\xint_c_xii_e_viii=\count364
+\xint_c_xi_e_viii_mone=\count365
+)
+Package: xint 2022/06/10 v1.4m Expandable operations on big integers (JFB)
+\xint_c_nine_x^viii=\count366
+)
+Package: xintfrac 2022/06/10 v1.4m Expandable operations on fractions (JFB)
+) (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xinttools.sty
+Package: xinttools 2022/06/10 v1.4m Expandable and non-expandable utilities (JF
+B)
+\XINT_toks=\toks50
+)
+Package: xintexpr 2022/06/10 v1.4m Expandable expression parser (JFB)
+ (C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xinttrig.sty
+Package: xinttrig 2022/06/10 v1.4m Trigonometrical functions for xintexpr (JFB)
+
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/xint\xintlog.sty
+Package: xintlog 2022/06/10 v1.4m Logarithms and exponentials for xintexpr (JFB
+)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/poormanlog\poormanlog.s
+ty
+Package: poormanlog 2022/05/25 v0.07 base 10 log and pow with 9 digits (JFB)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/poormanlog\poormanlog
+.tex))))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/lstaddons\lstautogobble
+.sty
+Package: lstautogobble 2012/05/03 v0.1 Implements 'autogobble' option for 'list
+ings'
+\lstag@spacecount=\count367
+)
+\measBox=\box81
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box82
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count368
+\pgfplotmarksize=\dimen302
+)
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
+\tikz@figbox=\box83
+\tikz@figbox@bg=\box84
+\tikz@tempbox=\box85
+\tikz@tempbox@bg=\box86
+\tikztreelevel=\count369
+\tikznumberofchildren=\count370
+\tikznumberofcurrentchild=\count371
+\tikz@fig@count=\count372
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count373
+\pgfmatrixcurrentcolumn=\count374
+\pgf@matrix@numberofcolumns=\count375
+)
+\tikz@expandcount=\count376
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/animate\animate.sty
+Package: animate 2022/09/15 PDF & SVG animations from files and inline graphics
+
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count377
+\calc@Bcount=\count378
+\calc@Adimen=\dimen311
+\calc@Bdimen=\dimen312
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count379
+\calc@Cskip=\skip66
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count380
+Package zref Info: New property: abspage on input line 65.
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
+Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count381
+)
+\@anim@box=\box87
+\@anim@measbox=\box88
+\@anim@tmpdima=\dimen313
+\@anim@tmpdimb=\dimen314
+\@anim@num=\count382
+\@anim@curframe=\count383
+\@anim@curframe@zb=\count384
+\@anim@resizeflags=\count385
+\@anim@skipfram=\count386
+\@anim@mulframecnt=\count387
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count388
+\c@@anim@ltxcnt=\count389
+\@anim@curlayer=\count390
+\@anim@lineno=\count391
+\@anim@curfield=\count392
+\@anim@@resizeflags=\count393
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip67
+\RaggedLeftLeftskip=\skip68
+\RaggedRightLeftskip=\skip69
+\CenteringRightskip=\skip70
+\RaggedLeftRightskip=\skip71
+\RaggedRightRightskip=\skip72
+\CenteringParfillskip=\skip73
+\RaggedLeftParfillskip=\skip74
+\RaggedRightParfillskip=\skip75
+\JustifyingParfillskip=\skip76
+\CenteringParindent=\skip77
+\RaggedLeftParindent=\skip78
+\RaggedRightParindent=\skip79
+\JustifyingParindent=\skip80
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip81
+\multirow@cntb=\count394
+\multirow@dima=\skip82
+\bigstrutjot=\dimen315
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count395
+\rotFPtop=\skip83
+\rotFPbot=\skip84
+\rot@float@box=\box89
+\rot@mess@toks=\toks53
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikz-cd.sty
+Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikzlibrarycd.c
+ode.tex
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen316
+\pgfarrowlength=\dimen317
+\pgfarrowwidth=\dimen318
+\pgfarrowlinewidth=\dimen319
+)))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen320
+\ar@mcellbox=\box90
+\extrarowheight=\dimen321
+\NC@list=\toks54
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box91
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2022-10-23 v3.1.9 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen322
+\l__siunitx_angle_marker_box=\box92
+\l__siunitx_angle_unit_box=\box93
+\l__siunitx_compound_count_int=\count396
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count397
+\l__siunitx_number_min_decimal_int=\count398
+\l__siunitx_number_min_integer_int=\count399
+\l__siunitx_number_round_precision_int=\count400
+\l__siunitx_number_group_first_int=\count401
+\l__siunitx_number_group_size_int=\count402
+\l__siunitx_number_group_minimum_int=\count403
+\l__siunitx_table_tmp_box=\box94
+\l__siunitx_table_tmp_dim=\dimen323
+\l__siunitx_table_column_width_dim=\dimen324
+\l__siunitx_table_integer_box=\box95
+\l__siunitx_table_decimal_box=\box96
+\l__siunitx_table_before_box=\box97
+\l__siunitx_table_after_box=\box98
+\l__siunitx_table_before_dim=\dimen325
+\l__siunitx_table_carry_dim=\dimen326
+\l__siunitx_unit_tmp_int=\count404
+\l__siunitx_unit_position_int=\count405
+\l__siunitx_unit_total_int=\count406
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-10-26 L3 programming layer (loader) 
+)
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeCambr
+idgeUS.sty
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+beaver.sty))
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip87
+\bibsep=\skip88
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count407
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+dolphin.sty)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemep
+rofessionalfonts.sty)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 217.
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.00002pt, 435.24405pt, 10.00002pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=435.24405pt
+* \textheight=227.62207pt
+* \oddsidemargin=-62.26997pt
+* \evensidemargin=-62.26997pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=14.22636pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count408
+\scratchdimen=\dimen327
+\scratchbox=\box99
+\nofMPsegments=\count409
+\nofMParguments=\count410
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count411
+\MPscratchDim=\dimen328
+\MPnumerator=\count412
+\makeMPintoPDFobject=\count413
+\everyMPtoPDFconversion=\toks56
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 217.
+ (main.out) (main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count414
+
+(C:\Users\bodhi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 217.
+ (main.nav)
+LaTeX Font Info:    Calculating math sizes for size <8.3> on input line 220.
+LaTeX Font Info:    Calculating math sizes for size <6.91> on input line 220.
+<Lambang dan logo UGM/Logo Horizontal Stack-Up.png, id=54, 854.2314pt x 243.549
+9pt>
+File: Lambang dan logo UGM/Logo Horizontal Stack-Up.png Graphic file (type png)
+
+<use Lambang dan logo UGM/Logo Horizontal Stack-Up.png>
+Package pdftex.def Info: Lambang dan logo UGM/Logo Horizontal Stack-Up.png  use
+d on input line 220.
+(pdftex.def)             Requested size: 149.68825pt x 42.67912pt.
+ [1
+
+{C:/Users/bodhi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Lambang da
+n logo UGM/Logo Horizontal Stack-Up.png>] [2
+
+] (main.toc
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 6.
+
+) [3
+
+] [4
+
+]
+<Gambar Lain/Alat/haha-0.png, id=202, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-0.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-0.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-0.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-0.png> <a0,fr0>
+<Gambar Lain/Alat/haha-1.png, id=206, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-1.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-1.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-1.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-1.png> <a0,fr1>
+<Gambar Lain/Alat/haha-2.png, id=210, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-2.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-2.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-2.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-2.png> <a0,fr2>
+<Gambar Lain/Alat/haha-3.png, id=214, 1927.2pt x 1084.05pt>
+File: Gambar Lain/Alat/haha-3.png Graphic file (type png)
+<use Gambar Lain/Alat/haha-3.png>
+Package pdftex.def Info: Gambar Lain/Alat/haha-3.png  used on input line 240.
+(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
+ <./Gambar Lain/Alat/haha-3.png> <a0,fr3> <a0,fr4> <a0,fr5> <a0,fr6> [5
+
+] [6
+
+]
+LaTeX Font Info:    Calculating math sizes for size <9.95> on input line 265.
+
+Overfull \hbox (18.81657pt too wide) in paragraph at lines 265--265
+[]  
+ []
+
+<Gambar Lain/Struktur.png, id=298, 1626.075pt x 853.68938pt>
+File: Gambar Lain/Struktur.png Graphic file (type png)
+<use Gambar Lain/Struktur.png>
+Package pdftex.def Info: Gambar Lain/Struktur.png  used on input line 265.
+(pdftex.def)             Requested size: 213.39566pt x 112.0256pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 265--265
+[]  
+ []
+
+[7
+
+ <./Gambar Lain/Struktur.png>]
+LaTeX Font Info:    Calculating math sizes for size <4.8> on input line 318.
+LaTeX Font Info:    Calculating math sizes for size <11.94> on input line 318.
+ [8
+
+] [9
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <14.33> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 401.
+
+
+[10
+
+] [11
+
+] [12
+
+]
+<Gambar Lain/posComp/posComp-0.png, id=492, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-0.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-0.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-0.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-0.png> <a1,fr0>
+<Gambar Lain/posComp/posComp-1.png, id=496, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-1.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-1.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-1.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-1.png> <a1,fr1>
+<Gambar Lain/posComp/posComp-2.png, id=500, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-2.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-2.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-2.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-2.png> <a1,fr2>
+<Gambar Lain/posComp/posComp-3.png, id=504, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-3.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-3.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-3.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-3.png> <a1,fr3>
+<Gambar Lain/posComp/posComp-4.png, id=508, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-4.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-4.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-4.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-4.png> <a1,fr4>
+<Gambar Lain/posComp/posComp-5.png, id=512, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-5.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-5.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-5.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-5.png> <a1,fr5>
+<Gambar Lain/posComp/posComp-6.png, id=516, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-6.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-6.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-6.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-6.png> <a1,fr6>
+<Gambar Lain/posComp/posComp-7.png, id=520, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-7.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-7.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-7.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-7.png> <a1,fr7>
+<Gambar Lain/posComp/posComp-8.png, id=524, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-8.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-8.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-8.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-8.png> <a1,fr8>
+<Gambar Lain/posComp/posComp-9.png, id=528, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-9.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-9.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-9.png  used on input line 
+422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-9.png> <a1,fr9>
+<Gambar Lain/posComp/posComp-10.png, id=532, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-10.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-10.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-10.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-10.png> <a1,fr10>
+<Gambar Lain/posComp/posComp-11.png, id=536, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-11.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-11.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-11.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-11.png> <a1,fr11>
+<Gambar Lain/posComp/posComp-12.png, id=540, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-12.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-12.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-12.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-12.png> <a1,fr12>
+<Gambar Lain/posComp/posComp-13.png, id=544, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-13.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-13.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-13.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-13.png> <a1,fr13>
+<Gambar Lain/posComp/posComp-14.png, id=548, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-14.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-14.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-14.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-14.png> <a1,fr14>
+<Gambar Lain/posComp/posComp-15.png, id=552, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-15.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-15.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-15.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-15.png> <a1,fr15>
+<Gambar Lain/posComp/posComp-16.png, id=556, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-16.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-16.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-16.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-16.png> <a1,fr16>
+<Gambar Lain/posComp/posComp-17.png, id=560, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-17.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-17.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-17.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-17.png>
+<a1,fr17>
+<Gambar Lain/posComp/posComp-18.png, id=564, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-18.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-18.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-18.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-18.png> <a1,fr18>
+<Gambar Lain/posComp/posComp-19.png, id=568, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-19.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-19.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-19.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-19.png> <a1,fr19>
+<Gambar Lain/posComp/posComp-20.png, id=572, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-20.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-20.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-20.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-20.png> <a1,fr20>
+<Gambar Lain/posComp/posComp-21.png, id=576, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-21.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-21.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-21.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-21.png> <a1,fr21>
+<Gambar Lain/posComp/posComp-22.png, id=580, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-22.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-22.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-22.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-22.png> <a1,fr22>
+<Gambar Lain/posComp/posComp-23.png, id=584, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-23.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-23.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-23.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-23.png> <a1,fr23>
+<Gambar Lain/posComp/posComp-24.png, id=588, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-24.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-24.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-24.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-24.png> <a1,fr24>
+<Gambar Lain/posComp/posComp-25.png, id=592, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-25.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-25.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-25.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-25.png>
+<a1,fr25>
+<Gambar Lain/posComp/posComp-26.png, id=596, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-26.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-26.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-26.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-26.png> <a1,fr26>
+<Gambar Lain/posComp/posComp-27.png, id=600, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-27.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-27.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-27.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-27.png> <a1,fr27>
+<Gambar Lain/posComp/posComp-28.png, id=604, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-28.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-28.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-28.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-28.png> <a1,fr28>
+<Gambar Lain/posComp/posComp-29.png, id=608, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-29.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-29.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-29.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-29.png> <a1,fr29>
+<Gambar Lain/posComp/posComp-30.png, id=612, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-30.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-30.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-30.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-30.png> <a1,fr30>
+<Gambar Lain/posComp/posComp-31.png, id=616, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-31.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-31.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-31.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-31.png> <a1,fr31>
+<Gambar Lain/posComp/posComp-32.png, id=620, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-32.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-32.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-32.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-32.png> <a1,fr32>
+<Gambar Lain/posComp/posComp-33.png, id=624, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-33.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-33.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-33.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-33.png>
+<a1,fr33>
+<Gambar Lain/posComp/posComp-34.png, id=628, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-34.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-34.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-34.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-34.png> <a1,fr34>
+<Gambar Lain/posComp/posComp-35.png, id=632, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-35.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-35.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-35.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-35.png> <a1,fr35>
+<Gambar Lain/posComp/posComp-36.png, id=636, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-36.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-36.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-36.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-36.png> <a1,fr36>
+<Gambar Lain/posComp/posComp-37.png, id=640, 642.4pt x 361.35pt>
+File: Gambar Lain/posComp/posComp-37.png Graphic file (type png)
+<use Gambar Lain/posComp/posComp-37.png>
+Package pdftex.def Info: Gambar Lain/posComp/posComp-37.png  used on input line
+ 422.
+(pdftex.def)             Requested size: 642.39844pt x 361.34912pt.
+ <./Gambar Lain/posComp/posComp-37.png> <a1,fr37> [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+]
+(Matlab/olDCmotor.m
+
+LaTeX Font Warning: Font shape `OT1/cmtt/bx/n' in size <5.76> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
+
+) (Matlab/clDCspeed.m) [18
+
+]
+<Matlab/olDCSpeed.png, id=867, 526.96875pt x 395.22656pt>
+File: Matlab/olDCSpeed.png Graphic file (type png)
+<use Matlab/olDCSpeed.png>
+Package pdftex.def Info: Matlab/olDCSpeed.png  used on input line 585.
+(pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 585--585
+[]  
+ []
+
+<Matlab/clDCSpeed.png, id=868, 526.96875pt x 395.22656pt>
+File: Matlab/clDCSpeed.png Graphic file (type png)
+<use Matlab/clDCSpeed.png>
+Package pdftex.def Info: Matlab/clDCSpeed.png  used on input line 585.
+(pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 585--585
+[]  
+ []
+
+[19
+
+ <./Matlab/olDCSpeed.png (PNG copy)> <./Matlab/clDCSpeed.png (PNG copy)>]
+(Matlab/PIDpos.m)
+<Matlab/PIDpos.png, id=897, 526.96875pt x 395.22656pt>
+File: Matlab/PIDpos.png Graphic file (type png)
+<use Matlab/PIDpos.png>
+Package pdftex.def Info: Matlab/PIDpos.png  used on input line 602.
+(pdftex.def)             Requested size: 213.39566pt x 160.04778pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 602--602
+ [] 
+ []
+
+
+Overfull \vbox (2.03111pt too high) detected at line 602
+ []
+
+[20
+
+ <./Matlab/PIDpos.png (PNG copy)>] [21
+
+]
+<Gambar Lain/diagram.png, id=964, 2168.1pt x 1220.56pt>
+File: Gambar Lain/diagram.png Graphic file (type png)
+<use Gambar Lain/diagram.png>
+Package pdftex.def Info: Gambar Lain/diagram.png  used on input line 608.
+(pdftex.def)             Requested size: 341.43306pt x 192.20197pt.
+ [22
+
+ <./Gambar Lain/diagram.png>]
+<Render/Main Board_v3 (Home).png, id=994, 1264.725pt x 581.17125pt>
+File: Render/Main Board_v3 (Home).png Graphic file (type png)
+<use Render/Main Board_v3 (Home).png>
+Package pdftex.def Info: Render/Main Board_v3 (Home).png  used on input line 62
+3.
+(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 623--623
+[]  
+ []
+
+<Render/Feedback Actuator UNIT ES151(Home).png, id=995, 1264.725pt x 581.17125p
+t>
+File: Render/Feedback Actuator UNIT ES151(Home).png Graphic file (type png)
+<use Render/Feedback Actuator UNIT ES151(Home).png>
+Package pdftex.def Info: Render/Feedback Actuator UNIT ES151(Home).png  used on
+ input line 623.
+(pdftex.def)             Requested size: 213.39566pt x 98.05289pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 623--623
+[]  
+ []
+
+[23
+
+ <./Render/Main Board_v3 (Home).png> <./Render/Feedback Actuator UNIT ES151(Hom
+e).png>]
+<Gambar Lain/KONTORU.jpg, id=1024, 1284.8pt x 722.7pt>
+File: Gambar Lain/KONTORU.jpg Graphic file (type jpg)
+<use Gambar Lain/KONTORU.jpg>
+Package pdftex.def Info: Gambar Lain/KONTORU.jpg  used on input line 655.
+(pdftex.def)             Requested size: 284.52756pt x 160.0421pt.
+
+Overfull \hbox (23.37848pt too wide) in paragraph at lines 655--655
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
+[]|\OT1/cmss/bx/n/9.95 Input-
+ []
+
+
+Overfull \hbox (4.2442pt too wide) in paragraph at lines 655--655
+\OT1/cmss/bx/n/9.95 Output| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
+[]|\OT1/cmss/m/sl/9.95 Time Sam-
+ []
+
+[24
+
+ <./Gambar Lain/KONTORU.jpg>]
+<Gambar Lain/TampakDepan.jpeg, id=1052, 1606.0pt x 904.37875pt>
+File: Gambar Lain/TampakDepan.jpeg Graphic file (type jpg)
+<use Gambar Lain/TampakDepan.jpeg>
+Package pdftex.def Info: Gambar Lain/TampakDepan.jpeg  used on input line 670.
+(pdftex.def)             Requested size: 213.39566pt x 120.16771pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 670--670
+[]  
+ []
+
+<Gambar Lain/TampakAtas.jpeg, id=1053, 1160.335pt x 653.44125pt>
+File: Gambar Lain/TampakAtas.jpeg Graphic file (type jpg)
+<use Gambar Lain/TampakAtas.jpeg>
+Package pdftex.def Info: Gambar Lain/TampakAtas.jpeg  used on input line 670.
+(pdftex.def)             Requested size: 213.39566pt x 120.16684pt.
+
+Overfull \hbox (4.48038pt too wide) in paragraph at lines 670--670
+[]  
+ []
+
+[25
+
+ <./Gambar Lain/TampakDepan.jpeg> <./Gambar Lain/TampakAtas.jpeg>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <11.94> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 671.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 671.
+
+[26
+
+]
+<Tampilan GUI/GUI.png, id=1124, 947.33925pt x 529.98pt>
+File: Tampilan GUI/GUI.png Graphic file (type png)
+<use Tampilan GUI/GUI.png>
+Package pdftex.def Info: Tampilan GUI/GUI.png  used on input line 686.
+(pdftex.def)             Requested size: 398.33858pt x 222.84885pt.
+
+Overfull \vbox (18.34468pt too high) detected at line 686
+ []
+
+[27
+
+ <./Tampilan GUI/GUI.png>] [28
+
+] [29
+
+] [30
+
+]
+<Gambar Lain/Terima Kasih/giphy-0.png, id=1252, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-0.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-0.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-0.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-0.png> <a2,fr0>
+<Gambar Lain/Terima Kasih/giphy-1.png, id=1256, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-1.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-1.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-1.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-1.png> <a2,fr1>
+<Gambar Lain/Terima Kasih/giphy-2.png, id=1260, 481.8pt x 481.8pt>
+File: Gambar Lain/Terima Kasih/giphy-2.png Graphic file (type png)
+<use Gambar Lain/Terima Kasih/giphy-2.png>
+Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-2.png  used on input li
+ne 705.
+(pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
+ <./Gambar Lain/Terima Kasih/giphy-2.png> <a2,fr2> [31
+
+]
+\tf@nav=\write6
+\openout6 = `main.nav'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+\tf@snm=\write8
+\openout8 = `main.snm'.
+
+ (main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C2EC67D38B1C1F1A0011DDB8AE806C44;1165.
+ ) 
+Here is how much of TeX's memory you used:
+ 44049 strings out of 475380
+ 904138 string characters out of 2776772
+ 1433475 words of memory out of 3000000
+ 64514 multiletter control sequences out of 15000+600000
+ 518881 words of font info for 198 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,26n,122p,2703b,2313s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymb
+olC.enc}{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/
+MnSymbolE.enc}{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mns
+ymbol/MnSymbolF.enc}{C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/mnsymbol/MnSymbolD.enc}<C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/mnsymbol/MnSymbol5.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/mnsymbol/MnSymbol6.pfb><C:/Users/bodhi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol8.pfb><C:/Users/bodhi/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/mnsymbol/MnSymbol9.pfb><C:/Users/bodhi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
+/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i9.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/bodhi/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/bodhi/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/bodhi/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/bodhi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Us
+ers/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmssi12.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmssi9.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb><C:/Users/bodhi/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (31 pages, 13175783 bytes).
+PDF statistics:
+ 1411 PDF objects out of 1440 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 956 words of extra memory for PDF output out of 10000 (max. 10000000)
+

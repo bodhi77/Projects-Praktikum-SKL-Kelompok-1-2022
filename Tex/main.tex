@@ -217,6 +217,7 @@
 \begin{document}
 %The next statement creates the title page.
 
+<<<<<<< HEAD
 \frame{\titlepage}
 
 \begin{frame}
@@ -262,6 +263,90 @@
 			\includegraphics[width=7.5cm]{Gambar Lain/Struktur.png}
 		\end{column}
 	\end{columns}
+=======
+	\frame{\titlepage}
+	
+%	\begin{frame}
+%		\frametitle{Anggota Kelompok 1}
+%		\begin{enumerate}
+%			\item Priyoya M. Rafief (20/457197/SV/17644)
+%			\item Karunia Dini F. (20/464248/SV/18567)
+%			\item Octsana Dhiyaa W. (20/464253/SV/18572)
+%			\item Bodhi Setiawan (20/464239/SV/18558)
+%		\end{enumerate}
+%	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Anggota Kelompok 1}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Priyoya M. Rafief \newline (20/457197/SV/17644)
+						\vspace{1.8cm}
+						\newline Karunia Dini F. \newline (20/464248/SV/18567)
+					\end{Center}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Bodhi Setiawan \newline (20/464239/SV/18558)
+						\vspace{1.8cm}
+						\newline Octsana Dhiyaa W. \newline (20/464253/SV/18572)
+					\end{Center}
+				\end{column}
+			\end{columns}
+		\begin{Center}
+			\vspace{0.8cm}
+			Dosen Pengampu : Fahmizal, S.T., M.Sc.
+		\end{Center}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Isi Pembahasan}
+		    \tableofcontents
+	\end{frame}
+
+\section{Pengenalan Sistem}
+	\begin{frame}{Pengenalan Sistem}
+		\begin{columns}[T] % align columns
+			\begin{column}{0.48\textwidth}
+			\vspace{1cm}
+			\justifying \textit{Feedback Educational Servo} ES151 merupakan sebuah modul motor DC servo yang digunakan untuk edukasi dalam penerapan kendali posisi dan kendali kecepatan.
+			\vspace{0.5cm}
+			\newline \justifying Pada modul ini potensiometer digunakan untuk kendali posisi, tachogenerator digunakan untuk kendali kecepatan, dan \textit{rotary encoder} yang dapat digunakan untuk kendali posisi maupun kecepatan. 
+			\end{column}%
+			\hfill%
+			\begin{column}{0.48\textwidth}
+				\includegraphics[width=7.5cm]{Gambar Lain/removed bg-modul.png}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\section{Pemodelan Sistem Motor DC}
+	\begin{frame}{Struktur Fisik}
+		\begin{columns}[T] % align columns
+			\begin{column}{0.48\textwidth}
+				Parameter:
+				\color{black}\rule{\linewidth}{4pt}
+					\begin{flushleft}
+					\begin{tabular}{lll}
+						$J$ &:& Momen inersia rotor $(Kg.m^2)$\\
+						$b$ &:& Koefisien gaya gesek viskos $(N.m.s)$\\
+						$Ke$ &:& Koefisien gaya elektromotif $(V/rad/sec)$\\
+						$Kt$ &:& Koefisien torsi motor $(N.m/Amp)$\\
+						$R$ &:& Resistansi kumparan $(Ohm)$\\
+						$L$ &:& Induktansi kumparan $(H)$\\
+					\end{tabular}
+				\end{flushleft}
+			\end{column}%
+			\hfill%
+			\begin{column}{0.48\textwidth}
+				Struktur:\newline
+				\color{myNewColorA}\rule{\linewidth}{4pt}
+				\includegraphics[width=7.5cm]{Gambar Lain/Struktur.png}
+			\end{column}
+		\end{columns}
+>>>>>>> 6a5636d30f6888a904630a79258d86aabc58ad56
 \end{frame}
 \begin{frame}{Diagram Blok Plant Motor DC}
 	Struktur motor DC dengan parameter-parameter sebelumnya memiliki diagram blok sebagai berikut:\newline
@@ -600,6 +685,35 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+<<<<<<< HEAD
+=======
+
+\begin{frame}{Simulink}
+	\begin{columns}[T] % align columns
+		\begin{column}{0.48\textwidth}
+			Diagram Blok Simulink
+			\color{black}\rule{\linewidth}{4pt}
+			\includegraphics[width=7.5cm]{Matlab/simulink1.jpg}
+		\end{column}%
+		\hfill%
+		\begin{column}{0.48\textwidth}
+			Diagram Blok PID dan Plant Motor DC
+			\color{blue}\rule{\linewidth}{4pt}
+			\begin{center}
+				\includegraphics[height=3cm]{Matlab/simulink2.jpg}
+				\includegraphics[width=7.5cm]{Matlab/simulink3.jpg}
+			\end{center}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{ Hasil Simulink}
+			\begin{center}
+				\includegraphics[width=10cm]{Matlab/simulink4.jpg}
+			\end{center}
+		\end{frame}
+
+>>>>>>> 6a5636d30f6888a904630a79258d86aabc58ad56
 \section{Sistem Mekanikal dan Elektrikal}
 \begin{frame}{Diagram Sistem}
 	\begin{center}
@@ -621,6 +735,7 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+<<<<<<< HEAD
 \begin{frame}{Panel Kendali}
 	\begin{columns}[T]
 		\begin{column}{0.6\textwidth}
@@ -702,7 +817,33 @@
 \begin{frame}
 	\centering
 	\animategraphics[loop,width=8cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2}
+=======
+
+\section{Desain GUI}
+\begin{frame}{Tampilan GUI}
+		\begin{center}
+		\includegraphics[width=12.0cm]{Tampilan GUI/Desain GUI.png}
+	\end{center}
+
+>>>>>>> 6a5636d30f6888a904630a79258d86aabc58ad56
 \end{frame}
+
+\begin{frame}{Kesimpulan}
+	
+\end{frame}
+
+\begin{frame}{Daftar Pustaka}
+	
+\end{frame}
+
+\begin{frame}
+	\begin{Center}
+	\includegraphics[height=3cm]{Lambang dan logo UGM/Lambang UGM-hitam.png}
+	\vspace{0.5cm}
+	\newline Visit us on https://otomasi.sv.ugm.ac.id/
+	\end{Center}
+\end{frame}
+
 \end{document}
 
 
