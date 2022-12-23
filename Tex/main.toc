@@ -1,7 +1,0 @@
-\beamer@sectionintoc {1}{Pengenalan Sistem}{4}{0}{1}
-\beamer@sectionintoc {2}{Pemodelan Sistem Motor DC}{6}{0}{2}
-\beamer@sectionintoc {3}{Perancangan Kendali PID Motor DC}{11}{0}{3}
-\beamer@sectionintoc {4}{Simulasi Kendali PID}{17}{0}{4}
-\beamer@sectionintoc {5}{Sistem Mekanikal dan Elektrikal}{21}{0}{5}
-\beamer@sectionintoc {6}{\textit {Graphical User Interface} (GUI)}{26}{0}{6}
-\beamer@sectionintoc {7}{Penutup}{28}{0}{7}
