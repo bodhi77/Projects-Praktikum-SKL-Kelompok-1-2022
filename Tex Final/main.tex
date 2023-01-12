@@ -6,10 +6,10 @@
 %%%%%import code matlab%%%%%%%%%%%%%
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{movie15}
 \usepackage{xsavebox} % file-size-efficient saveboxes
 %\usepackage{animate}  % for animated scrolling
 \usepackage{MnSymbol} % \triangle, \triangledown for scroll buttons
-%\usepackage{multimedia}   % buttons
 \usepackage{xintexpr} % calculate expressions
 
 % Code colors (Irrelevant from the presentation color theme!)
@@ -252,7 +252,8 @@
 	\section{Pengenalan Sistem}
 %		\begin{frame}{Pengenalan Sistem}
 %			\centering
-%			\animategraphics[loop,width=12cm]{10}{Gambar Lain/Alat/haha-}{0}{6}
+%\includegraphics[width=7cm]{Gambar Lain/removed bg-modul.png}
+%			\animategraphics[loop,width=7cm]{10}{Gambar Lain/Alat/haha-}{0}{6}
 %		\end{frame}
 	
 	\begin{frame}{\textit{Feedback Educational Servo ES151}}
@@ -265,9 +266,9 @@
 			\end{column}%
 			\hfill%
 			\begin{column}{0.48\textwidth}
-				\vspace{0.5cm}
+%				\vspace{0.5cm}
 				\centering
-				\animategraphics[loop,width=7.5cm]{10}{Gambar Lain/Alat/haha-}{0}{6}
+				\includegraphics[width=7cm]{Gambar Lain/removed bg-modul.png}
 			\end{column}
 		\end{columns}
 	\end{frame}
@@ -370,7 +371,7 @@
 					\color{black}\rule{\linewidth}{4pt}
 					\begin{equation}
 						\begin{split}
-							\frac{\delta}{\delta t}
+							\frac{d}{dt}
 							\begin{bmatrix}
 								\dot{\theta} \\ i
 							\end{bmatrix}
@@ -403,7 +404,7 @@
 					\color{myNewColorA}\rule{\linewidth}{4pt}
 					\begin{equation}
 						\begin{split}
-							\frac{\delta}{\delta t}
+							\frac{d}{dt}
 							\begin{bmatrix}
 								\theta \\ \dot{\theta} \\ i
 							\end{bmatrix}
@@ -497,7 +498,7 @@
 			\begin{tabular}{lll}
 				$C(s)$ &:& \textit{Controller}\\
 				$P(s)$ &:& \textit{Plant}\\
-				$r(s)$ &:& \textit{Output} yang diinginkan\\
+				$r(s)$ &:& \textit{Set Point}\\
 				$e(s)$ &:& Nilai \textit{error}\\
 				$u(s)$ &:& Sinyal kendali\\
 				$y(s)$ &:& \textit{Output} sesungguhnya\\
@@ -643,36 +644,37 @@
 	
 	\begin{frame}{Panel Kendali}
 		\begin{columns}[T]
-			\begin{column}{0.6\textwidth}
+			\begin{column}{0.48\textwidth}
 				\centering
-				\includegraphics[width=10cm]{Gambar Lain/KONTORU.jpg}
+				\includegraphics[width=7cm]{Gambar Lain/KONTORU.jpg}
+				Kontroler
 			\end{column}
-			\begin{column}{0.3\textwidth}
-				\centering
-				\begin{tabular}{ | m{1cm} | m{2cm}|} 
+			\begin{column}{0.48\textwidth}
+				\begin{tabular}{ | m{1cm} | m{2.5cm}| m{2cm}|} 
 					\hline
-					\textbf{Input-Output} & \textbf{Fungsi}\\
+					\textbf{Input-Output} & \textbf{Fungsi} & \textbf{Pin} \\ 
 					\hline
-					SP & Set Poin\\ 
+					SP & Set Poin & A7\\ 
 					\hline
-					P & Proporsional\\
+					P & Proporsional & A5 \\
 					\hline
-					I & Integral\\
+					I & Integral & A8 \\
 					\hline
-					D & Derivatif\\
+					D & Derivatif & A6 \\
 					\hline
-					SEL & \textit{Selector}\\
+					SEL & \textit{Selector} & 34, 32, 30 \\
 					\hline
-					dt & \textit{Time Sampling}\\
+					dt & \textit{Time Sampling} & A4 \\
 					\hline
-					LCD & LCD\\
+					LCD & LCD & 0, 1 \\
 					\hline
-					KEY & Keypad \\
+					KEY & Keypad & 52, 50, 48, 46, 44, 42, 40, 38 \\
 					\hline
 				\end{tabular}
 			\end{column}
 		\end{columns}
 	\end{frame}
+
 		\begin{frame}{Desain \textit{Hardware}}
 			\begin{columns}[T] % align columns
 				\begin{column}{0.48\textwidth}
@@ -692,10 +694,15 @@
 \section{\textit{Graphical User Interface} (GUI)}
 		\begin{frame}{GUI Menggunakan Python}
 			\centering
-			\movie[externalviewer]{\includegraphics[width=12.0cm, keepaspectratio]{Tampilan GUI/GUI.png}}{Video/VideoDemo.mp4}
-	\end{frame}
+			\movie{\includegraphics[height=2.8in]{Tampilan GUI/GUI.PNG}}{Video/VideoDemo.mp4}
+%			\movie[externalviewer]{\includegraphics[width=12.0cm, keepaspectratio]{Tampilan GUI/GUI.png}}{Video/VideoDemo.mp4}
+		\end{frame}
 	
-	\section{Penutup}
+	\section{Hasil dan Kesimpulan}
+	\begin{frame}{Hasil}
+		content...
+	\end{frame}
+
 		\begin{frame}
 			\frametitle{Kesimpulan}
 			Dari percobaan-percobaan dan pembahasan-pembahasan yang telah dilakukan, diperoleh beberapa kesimpulan yaitu:
@@ -714,19 +721,20 @@
 			\end{itemize}
 		\end{frame}
 		
-		\begin{frame}
-			\centering
-			\animategraphics[loop,width=8cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2}
-		\end{frame}
+%		\begin{frame}
+%			\centering
+%			\animategraphics[loop,width=8cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2}
+%		\end{frame}
 		
 		\begin{frame}
 			\begin{Center}
-				\includegraphics[height=3cm]{Lambang dan logo UGM/Lambang UGM-hitam.png}
-				\vspace{0.5cm}
+				\vspace{0.8cm}
+				\includegraphics[height=2cm]{Lambang dan logo UGM/Lambang UGM-hitam.png}
+				\vspace{0.2cm}
 				\newline Visit us on https://otomasi.sv.ugm.ac.id/
+				\newline \animategraphics[loop,width=5cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2} 
+				\hspace{1cm}
 			\end{Center}
 		\end{frame}
 		
-	\end{document}
-	
-	
+\end{document}
