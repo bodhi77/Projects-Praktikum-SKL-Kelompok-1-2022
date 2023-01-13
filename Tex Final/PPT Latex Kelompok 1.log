@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.27)  13 JAN 2023 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.27)  13 JAN 2023 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2589,15 +2589,15 @@ Package pdftex.def Info: Graph/VariasiD.png  used on input line 795.
 File: Lambang dan logo UGM/Lambang UGM-hitam.png Graphic file (type png)
 <use Lambang dan logo UGM/Lambang UGM-hitam.png>
 Package pdftex.def Info: Lambang dan logo UGM/Lambang UGM-hitam.png  used on in
-put line 845.
+put line 844.
 (pdftex.def)             Requested size: 54.86717pt x 56.9055pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--845
+Underfull \hbox (badness 10000) in paragraph at lines 844--844
  [][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--845
+Underfull \hbox (badness 10000) in paragraph at lines 844--844
  []\OT1/cmss/m/n/9.95 Visit us on https://otomasi.sv.ugm.ac.id/ 
  []
 
@@ -2605,29 +2605,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 845--845
 File: Gambar Lain/Terima Kasih/giphy-0.png Graphic file (type png)
 <use Gambar Lain/Terima Kasih/giphy-0.png>
 Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-0.png  used on input li
-ne 845.
+ne 844.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./Gambar Lain/Terima Kasih/giphy-0.png> <a1,fr0>
 <Gambar Lain/Terima Kasih/giphy-1.png, id=1630, 481.8pt x 481.8pt>
 File: Gambar Lain/Terima Kasih/giphy-1.png Graphic file (type png)
 <use Gambar Lain/Terima Kasih/giphy-1.png>
 Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-1.png  used on input li
-ne 845.
+ne 844.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./Gambar Lain/Terima Kasih/giphy-1.png> <a1,fr1>
 <Gambar Lain/Terima Kasih/giphy-2.png, id=1634, 481.8pt x 481.8pt>
 File: Gambar Lain/Terima Kasih/giphy-2.png Graphic file (type png)
 <use Gambar Lain/Terima Kasih/giphy-2.png>
 Package pdftex.def Info: Gambar Lain/Terima Kasih/giphy-2.png  used on input li
-ne 845.
+ne 844.
 (pdftex.def)             Requested size: 481.79881pt x 481.79881pt.
  <./Gambar Lain/Terima Kasih/giphy-2.png> <a1,fr2>
-Underfull \hbox (badness 10000) in paragraph at lines 845--845
+Underfull \hbox (badness 10000) in paragraph at lines 844--844
  [][][][][]  
  []
 
 
-Overfull \vbox (16.31296pt too high) detected at line 845
+Overfull \vbox (16.31296pt too high) detected at line 844
  []
 
 [43
@@ -2691,7 +2691,7 @@ ublic/amsfonts/cm/cmssi12.pfb><C:/Users/Hp/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/Hp/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Hp/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "PPT Latex Kelompok 1.pdf" (43 pages, 89911376 bytes).
+Output written on "PPT Latex Kelompok 1.pdf" (43 pages, 89911141 bytes).
 PDF statistics:
  1794 PDF objects out of 2073 (max. 8388607)
  99 named destinations out of 1000 (max. 500000)
