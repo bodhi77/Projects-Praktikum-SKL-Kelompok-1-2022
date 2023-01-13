@@ -1,0 +1,742 @@
+\documentclass[10pt,xcolor={dvipsnames}]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.4,debug]{beamerposter} 
+\usepackage[utf8]{inputenc}
+
+%%%%%import code matlab%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{movie15}
+\usepackage{xsavebox} % file-size-efficient saveboxes
+%\usepackage{animate}  % for animated scrolling
+\usepackage{MnSymbol} % \triangle, \triangledown for scroll buttons
+\usepackage{xintexpr} % calculate expressions
+
+% Code colors (Irrelevant from the presentation color theme!)
+\definecolor{codemaincolor}{RGB}{0, 0, 0}
+\definecolor{codebackgroundcolor}{RGB}{255, 255, 255}
+\definecolor{codekeywordcolor}{RGB}{0, 0, 255}
+\definecolor{codestringcolor}{RGB}{163, 21, 21}
+\definecolor{codecommentcolor}{RGB}{39, 139, 39}
+\definecolor{codeusertypecolor}{RGB}{43, 145, 175}
+
+\usepackage{listings}
+\usepackage{lstautogobble}
+\lstset {
+	basicstyle={\scriptsize \ttfamily \color{codemaincolor}},
+	backgroundcolor=\color{codebackgroundcolor},
+	autogobble = true,
+	tabsize = 2,
+	xleftmargin=0pt,
+	xrightmargin=0pt,
+	aboveskip=0pt, % \medskipamount,
+	belowskip=0pt, % \medskipamount,
+	literate={\ \ }{{\ }}1
+}
+% Code C++ style
+\lstdefinestyle{C++} {
+	language=C++,
+	otherkeywords = {final, override, noexcept},
+	keywordstyle = {\color{codekeywordcolor}},
+	stringstyle = {\color{codestringcolor}},
+	commentstyle = {\color{codecommentcolor}\em},
+	% Class and types highlighting
+	classoffset=1, % starting new class
+	morekeywords={vector, ostream, unique_ptr, shared_ptr, T, device_t, abstract_device, device_one, device_two, device_three, executable_device, measurable_device, my_device, concept_t, model, device_one_model, device_two_model, sensor_t, history_t},
+	keywordstyle=\color{codeusertypecolor},
+	classoffset=0,
+}
+
+
+% \smoothScroll[<animate opts>]{<xsavebox id>}{<viewport height>}{<steps>}{<steps per sec>}
+\newcommand{\smoothScroll}[5][]{%
+	\savebox\measBox{\xusebox{#2}}%
+	\edef\boxwd{\the\wd\measBox}%
+	\edef\boxht{\the\ht\measBox}%
+	\edef\boxtht{\the\dimexpr\ht\measBox+\dp\measBox\relax}%
+	\edef\portht{\the\dimexpr#3\relax}%
+	\begin{animateinline}[#1,label={#2},width=\boxwd,height=\portht]{#5}%
+		\multiframe{#4}{%
+			dRaiseLen=\the\dimexpr-\boxht+\portht\relax+\the\dimexpr(\boxtht-\portht)/%
+			\numexpr#4-1\relax\relax
+		}{%
+			\begin{minipage}[b][\portht][b]{\boxwd}%
+				\raisebox{\dRaiseLen}[0pt][0pt]{\xusebox{#2}}%
+			\end{minipage}%
+		}%
+	\end{animateinline}%
+}
+\newsavebox\measBox % for measuring purposes
+
+% \topScrollButton{<xsavebox id>}{<step>}
+\newcommand{\topScrollButton}[2]{%
+	\mediabutton[
+	jsaction={
+		if(event.shift){anim['#1'].pause();anim['#1'].frameNum=0;}
+		else try{anim['#1'].frameNum-=#2}catch(e){anim['#1'].frameNum=0;}
+	}
+	]{\fboxsep=0pt\framebox[\widthof{\xusebox{#1}}][c]{%
+			\tiny\strut\raisebox{-0.2\height}{$\triangle\triangle\triangle$}}%
+	}%
+}
+
+% \botScrollButton{<xsavebox id>}{<step>}
+\newcommand{\botScrollButton}[2]{%
+	\mediabutton[
+	jsaction={
+		if(event.shift){anim['#1'].pause();anim['#1'].frameNum=anim['#1'].numFrames-1;}
+		else try{anim['#1'].frameNum+=#2}catch(e){anim['#1'].frameNum=anim['#1'].numFrames-1;}
+	}
+	]{\fboxsep=0pt\framebox[\widthof{\xusebox{#1}}][c]{%
+			\tiny\strut\raisebox{0.1\height}{$\triangledown\triangledown\triangledown$}}%
+	}%
+}
+
+% \begin{codescroll}[<lstlisting opts>]{<xsavebox id>}{<total lines>}{<viewport lines>}
+	\lstnewenvironment{codescroll}[4][style=C++]
+	{\lstset{#1}\xlrbox{#2}\noindent\minipage{\linewidth}}
+	{\endminipage\endxlrbox%
+		\def\lnsperframe{28}% max lines without the buttons you have to change this value for different margins, beamer themes etc.
+		\def\lnht{5}% height of each line
+		\def\lnspersec{3}% scroll number of lines per second
+		\def\htpercentage{\xintthefloatexpr #4 / \lnsperframe \relax}% calculate the height of the scroll area
+		\def\steps{\xintexpr #3 - #4 + 1 \relax}% steps needed to go from the first to last line
+		\def\viewportheight{\xinttheiexpr (#3 + 1)  * \lnht \relax}% total height of the viewport
+		\def\btnstep{\xintthefloatexpr \viewportheight / \steps \relax}% step to in(dec)crease when press the buttons
+		\def\stepspersec{\xintthefloatexpr \lnspersec * \btnstep \relax}% scroll speed
+		\topScrollButton{#2}{\btnstep}\\%
+		\smoothScroll{#2}{\htpercentage\textheight}{\viewportheight}{\stepspersec}\\%
+		\raisebox{2ex}{\botScrollButton{#2}{\btnstep}}%
+	}
+	
+	\lstset{ 
+		language=Matlab,                		% choose the language of the code
+		%	basicstyle=10pt,       				% the size of the fonts that are used for the code
+		%numbers=left,                  			% where to put the line-numbers
+		%numberstyle=\footnotesize,      		% the size of the fonts that are used for the line-numbers
+		%stepnumber=1,                   			% the step between two line-numbers. If it's 1 each line will be numbered
+		%numbersep=5pt,                  		% how far the line-numbers are from the code
+		%	backgroundcolor=\color{white},  	% choose the background color. You must add \usepackage{color}
+		showspaces=false,               		% show spaces adding particular underscores
+		showstringspaces=false,         		% underline spaces within strings
+		showtabs=true,                 			% show tabs within strings adding particular underscores
+		frame=single,	                			% adds a frame around the code
+		tabsize=2,                				% sets default tabsize to 2 spaces
+		%	captionpos=b,                   			% sets the caption-position to bottom
+		breaklines=true,                			% sets automatic line breaking
+		breakatwhitespace=false,        		% sets if automatic breaks should only happen at whitespace
+		escapeinside={\%*}{*)}          		% if you want to add a comment within your code
+	}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%ini buat bikin diagram blocks
+	\usepackage{tikz}
+	\usetikzlibrary{positioning}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	% Required package
+	\usepackage{animate}
+	%\usepackage{media9,graphicx}			%video with thumbnail
+	\usepackage{ragged2e}
+	\usepackage{multirow,rotating}
+	\usepackage{color}
+	\usepackage{hyperref}
+	\usepackage{tikz-cd}
+	\usepackage{array}
+	\usepackage{siunitx}
+	%\usepackage{mathtools,nccmath}%
+	\usepackage{etoolbox, xparse} 
+	\usetheme{CambridgeUS}
+	\usepackage{natbib}
+	\usecolortheme{dolphin}
+	
+	% set colors
+	\definecolor{myNewColorA}{RGB}{0, 0, 128} %{46, 162, 151}
+	\definecolor{myNewColorB}{RGB}{253, 203, 44} %{255, 235, 59}
+	\definecolor{myNewColorC}{RGB}{253, 203, 44} % {130,138,143}
+	\setbeamercolor*{palette primary}{bg=myNewColorC}
+	\setbeamercolor*{palette secondary}{bg=myNewColorB, fg = white}
+	\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+	\setbeamercolor*{titlelike}{fg=myNewColorA}
+	\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+	\setbeamercolor*{item}{fg=myNewColorA}
+	\setbeamercolor*{caption name}{fg=myNewColorA}
+	\usefonttheme{professionalfonts}
+	
+	
+	%------------------------------------------------------------
+	% \titlegraphic{\includegraphics[height=0.75cm]{ua_eng_logo.png}} 
+	
+	% logo of my university
+	
+	\titlegraphic{
+		\includegraphics[height=1.5cm]{Lambang dan logo UGM/Logo Horizontal Stack-Up.png}
+		
+	}
+	
+	\setbeamerfont{title}{size=\large}
+	\setbeamerfont{subtitle}{size=\small}
+	\setbeamerfont{author}{size=\small}
+	\setbeamerfont{date}{size=\footnotesize}
+	\setbeamerfont{institute}{size=\footnotesize}
+	\title[UGM]{Kendali Kecepatan dan Posisi Motor DC}%title
+	%\subtitle{ }%%subtitle
+	\author[Kelompok 1]{Priyova M. Rafief\inst{1}, Karunia Dini F.\inst{1}, Octsana Dhiyaa W.\inst{1}, Bodhi Setiawan\inst{1}}%%authors
+	
+	\institute[UGM]{Departemen Teknik Elektro dan Informatika, Sekolah Vokasi, Universitas Gadjah Mada\inst{1}}
+	\date[\textcolor{white}{PSKL, 2022}]
+	{Praktikum Sistem Kendali Lanjut}
+	
+	%------------------------------------------------------------
+	%This block of commands puts the table of contents at the 
+	%beginning of each section and highlights the current section:
+	%\AtBeginSection[]
+	%{
+		%  \begin{frame}
+			%    \frametitle{Contents}
+			%    \tableofcontents[currentsection]
+			%  \end{frame}
+		%}
+	
+	\AtBeginSection[]{
+		\begin{frame}
+			\vfill
+			\centering
+			\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+				\usebeamerfont{title}\insertsectionhead\par%
+			\end{beamercolorbox}
+			\vfill
+		\end{frame}
+	}
+	% ------Contents below------
+	%------------------------------------------------------------
+	
+	\begin{document}
+		%The next statement creates the title page.
+		
+		\frame{\titlepage}
+		
+		\begin{frame}
+			\frametitle{Anggota Kelompok 1}
+			\frametitle{Anggota Kelompok 1}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Priyoya M. Rafief \newline (20/457197/SV/17644)
+						\vspace{1.2cm}
+						\newline Karunia Dini F. \newline (20/464248/SV/18567)
+					\end{Center}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					\begin{Center}
+						Bodhi Setiawan \newline (20/464239/SV/18558)
+						\vspace{1.2cm}
+						\newline Octsana Dhiyaa W. \newline (20/464253/SV/18572)
+					\end{Center}
+				\end{column}
+			\end{columns}
+			\begin{Center}
+				\vspace{0.8cm}
+				Dosen Pembimbing : Fahmizal, S.T., M.Sc.
+			\end{Center}
+		\end{frame}
+		
+		\begin{frame}
+			\frametitle{Isi Pembahasan}
+			\tableofcontents
+		\end{frame}
+	\section{Pengenalan Sistem}
+%		\begin{frame}{Pengenalan Sistem}
+%			\centering
+%\includegraphics[width=7cm]{Gambar Lain/removed bg-modul.png}
+%			\animategraphics[loop,width=7cm]{10}{Gambar Lain/Alat/haha-}{0}{6}
+%		\end{frame}
+	
+	\begin{frame}{\textit{Feedback Educational Servo ES151}}
+		\begin{columns}[T] % align columns
+			\begin{column}{0.48\textwidth}
+				\vspace{0.5cm}
+				\justifying \textit{Feedback Educational Servo} ES151 merupakan sebuah modul motor DC servo yang digunakan untuk edukasi dalam penerapan kendali posisi dan kendali kecepatan.
+				\vspace{0.5cm}
+				\newline \justifying Pada modul ini potensiometer digunakan untuk kendali posisi, tachogenerator digunakan untuk kendali kecepatan, dan \textit{rotary encoder} yang dapat digunakan untuk kendali posisi maupun kecepatan. 
+			\end{column}%
+			\hfill%
+			\begin{column}{0.48\textwidth}
+%				\vspace{0.5cm}
+				\centering
+				\includegraphics[width=7cm]{Gambar Lain/removed bg-modul.png}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+		\section{Pemodelan Sistem Motor DC}
+		\begin{frame}{Struktur Fisik}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					Parameter:
+					\color{black}\rule{\linewidth}{4pt}
+					\begin{flushleft}
+						\begin{tabular}{lll}
+							$J$ &:& Momen inersia rotor $(Kg.m^2)$\\
+							$b$ &:& Koefisien gaya gesek viskos $(N.m.s)$\\
+							$Ke$ &:& Koefisien gaya elektromotif $(V/rad/sec)$\\
+							$Kt$ &:& Koefisien torsi motor $(N.m/Amp)$\\
+							$R$ &:& Resistansi kumparan $(Ohm)$\\
+							$L$ &:& Induktansi kumparan $(H)$\\
+						\end{tabular}
+					\end{flushleft}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					Struktur:\newline
+					\color{myNewColorA}\rule{\linewidth}{4pt}
+					\includegraphics[width=7.5cm]{Gambar Lain/Struktur.png}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\begin{frame}{Diagram Blok Plant Motor DC}
+			Struktur motor DC dengan parameter-parameter sebelumnya memiliki diagram blok sebagai berikut:\newline
+			\begin{center}
+				\begin{tikzpicture}
+					% Sum shape
+					\node[draw, circle, minimum size=0.6cm, fill=Rhodamine!50] (sum) at (0,0){};
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\node[left=-1pt] at (sum.center){\tiny $+$};
+					\node[below] at (sum.center){\tiny $-$};
+					
+					% Controller
+					\node [draw, fill=Goldenrod, minimum width=2cm, minimum height=1.2cm, right=1cm of sum] (controller) {\large $\frac{1}{Ls+R}$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, below=0.3cm of controller] (text1) {\textit{Electrical}};
+					
+					% System H(s)
+					\node [draw, fill=SpringGreen, minimum width=1cm, minimum height=1cm, right=1.5cm of controller] (system1) {$Kt$};
+					
+					\node [draw, fill=Aquamarine, minimum width=2cm, minimum height=1.2cm, right=4cm of controller] (system2) {\large $\frac{1}{Js+b}$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, below=0.3cm of system2] (text2) {\textit{Mechanical}};
+					
+					% Sensor block
+					\node [draw, fill=SeaGreen, minimum width=1cm, minimum height=1cm,  below right= 1.5cm and 1.5cm of controller]  (sensor) {$Ke$};
+					
+					% Arrows with text label
+					\draw[-stealth] (sum.east) -- (controller.west);
+					
+					\draw[-stealth] (controller.east) -- (system1.west) 
+					node[midway,above]{$I(s)$};
+					
+					\draw[-stealth] (system1.east) -- (system2.west) 
+					node[midway,above]{$T(s)$};
+					
+					\draw[-stealth] (system2.east) -- ++ (1.25,0) 
+					node[midway](output){}node[midway,above]{$\dot{\theta}(s)$};
+					
+					\draw[-stealth] (output.center) |- (sensor.east);
+					
+					\draw[-stealth] (sensor.west) -| (sum.south) 
+					node[very near start,above]{$e(s)$};
+					
+					\draw (sum.west) -- ++(-1,0) 
+					node[midway,above]{$V(s)$};
+				\end{tikzpicture}
+			\end{center}
+		\end{frame}
+		
+		\begin{frame}{Fungsi Alih}
+			Diagram blok \textit{plant} motor DC menghasilkan persamaan fungsi alih berikut:
+			\begin{equation}
+				\frac{\dot{\theta}(s)}{V(s)}=\frac{Kt}{(Js+b)(Ls+R)+KtKe} \qquad \left[\frac{rad/sec}{V}\right] 
+			\end{equation} 
+			Persamaan di atas merupakan fungsi alih kecepatan motor DC. Dengan mengintegralkan fungsi alih tersebut, maka diperoleh fungsi alih untuk posisi motor DC:
+			\begin{equation}
+				\frac{\theta(s)}{V(s)}=\frac{Kt}{s((Js+b)(Ls+R)+KtKe)} \qquad \left[\frac{rad}{V}\right]
+				\label{position}
+			\end{equation}
+		\end{frame}
+		
+		\begin{frame}{\textit{State Space}}
+			\begin{columns}[T]
+				\begin{column}{0.5\textwidth}
+					Kecepatan:
+					\color{black}\rule{\linewidth}{4pt}
+					\begin{equation}
+						\begin{split}
+							\frac{d}{dt}
+							\begin{bmatrix}
+								\dot{\theta} \\ i
+							\end{bmatrix}
+							=
+							\begin{bmatrix}
+								-\frac{b}{J} & \frac{Kt}{J}\\
+								-\frac{Ke}{L} & -\frac{R}{L}
+							\end{bmatrix}
+							\begin{bmatrix}
+								\dot{\theta} \\ i
+							\end{bmatrix}
+							+
+							\begin{bmatrix}
+								0 \\ \frac{1}{L}
+							\end{bmatrix}
+							V\\
+							y=
+							\begin{bmatrix}
+								1 & 0
+							\end{bmatrix}
+							\begin{bmatrix}
+								\dot{\theta} \\ i
+							\end{bmatrix}
+						\end{split}
+					\end{equation}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.5\textwidth}
+					Posisi:\newline
+					\color{myNewColorA}\rule{\linewidth}{4pt}
+					\begin{equation}
+						\begin{split}
+							\frac{d}{dt}
+							\begin{bmatrix}
+								\theta \\ \dot{\theta} \\ i
+							\end{bmatrix}
+							=
+							\begin{bmatrix}
+								0 & 1 & 0\\
+								0 & -\frac{b}{J} & \frac{Kt}{J}\\
+								0 & -\frac{Ke}{L} & -\frac{R}{L}
+							\end{bmatrix}
+							\begin{bmatrix}
+								\theta \\ \dot{\theta} \\ i
+							\end{bmatrix}
+							+
+							\begin{bmatrix}
+								0 \\ 0 \\ \frac{1}{L}
+							\end{bmatrix}
+							V\\
+							y=
+							\begin{bmatrix}
+								1 & 0 & 0
+							\end{bmatrix}
+							\begin{bmatrix}
+								\theta \\ \dot{\theta} \\ i
+							\end{bmatrix}
+						\end{split}
+					\end{equation}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		
+		\section{Perancangan Kendali PID Motor DC}
+		\begin{frame}{Apa Itu Kendali PID?}
+			\begin{itemize}
+				\item PID=\textbf{Proportional-Integral-Derivative}
+				\item Kendali mekanisme umpan balik yang biasanya dipakai pada sistem kontrol industri
+				\item Secara kontinu menghitung nilai kesalahan sebagai beda antara setpoint yang diinginkan dan variabel proses terukur.
+				Persamaan:
+				\begin{equation}
+					u(t)=K_{p}e(t)+K_{i}\int_{0}^{t}e(t)dt+K_{d}\frac{de(t)}{dt}
+				\end{equation}
+			\end{itemize}
+		\end{frame}
+		
+		\begin{frame}{Mengapa Kendali PID?}
+			Kendali PID berfungsi untuk meminimalkan nilai kesalahan (\textit{error}) setiap waktu dengan penyetelan variabel kontrol, seperti posisi, kecepatan, damper, daya, dan lain sebagainya.\newline
+			Contoh perbandingan sistem dengan dan tanpa PID:
+			\begin{center}
+				\animategraphics[loop,width=7cm]{20}{Gambar Lain/posComp/posComp-}{0}{37}
+			\end{center}
+		\end{frame}
+		
+		\begin{frame}{Diagram Blok Kendali}
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Sum shape
+					\node[draw, circle, minimum size=0.6cm, fill=Rhodamine!50] (sum) at (0,0){};
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\node[left=-1pt] at (sum.center){\tiny $+$};
+					\node[below] at (sum.center){\tiny $-$};
+					
+					% Controller
+					\node [draw, fill=Goldenrod, minimum width=2cm, minimum height=1.2cm, right=1cm of sum] (controller) {$C(s)$};
+					
+					% System H(s)
+					\node [draw, fill=SpringGreen, minimum width=2cm, minimum height=1.2cm, right=1.5cm of controller] (system) {$P(s)$};
+					
+					% Arrows with text label
+					\draw[-stealth] (sum.east) -- (controller.west)
+					node[midway,above]{$e$};
+					
+					\draw[-stealth] (controller.east) -- (system.west) 
+					node[midway,above]{$u$};
+					
+					\draw[-stealth] (system.east) -- ++ (1.25,0) 
+					node[midway](output){}node[midway,above]{$y$};
+					\draw [-stealth] (output.center) -- ++ (0,-2) -| (sum.south);
+					
+					\draw (sum.west) -- ++(-1,0) 
+					node[midway,above]{$r$};
+					
+				\end{tikzpicture}
+			\end{center}
+			\textbf{Keterangan:}\newline
+			\begin{tabular}{lll}
+				$C(s)$ &:& \textit{Controller}\\
+				$P(s)$ &:& \textit{Plant}\\
+				$r(s)$ &:& \textit{Set Point}\\
+				$e(s)$ &:& Nilai \textit{error}\\
+				$u(s)$ &:& Sinyal kendali\\
+				$y(s)$ &:& \textit{Output} sesungguhnya\\
+			\end{tabular}
+		\end{frame}
+		\begin{frame}{Diagram Blok Kendali PID Motor DC: Kecepatan}
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Sum shape
+					\node[draw, circle, minimum size=0.6cm, fill=Rhodamine!50] (sum) at (0,0){};
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\node[left=-1pt] at (sum.center){\tiny $+$};
+					\node[below] at (sum.center){\tiny $-$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, above right=0.3cm and -1.2cm of controller] (text2) {\textit{PID}};
+					% Controller
+					\node [draw, fill=Magenta, minimum width=2cm, minimum height=1.2cm, right=1cm of sum]  (controller) {$Kp+\frac{Ki}{s}+Kds$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, above right=0.3cm and -1.5cm of system] (text2) {\textit{DC Motor}};
+					% System H(s)
+					\node [draw, fill=Peach, minimum width=2cm, minimum height=1.2cm, right=0.8cm of controller] (system) {$\frac{Kt}{(Js+b)(Ls+R)+KtKe}$};
+					
+					% Arrows with text label
+					\draw[-stealth] (sum.east) -- (controller.west)
+					node[midway,above]{$e(s)$};
+					
+					\draw[-stealth] (controller.east) -- (system.west) 
+					node[midway,above]{$u(s)$};
+					
+					\draw[-stealth] (system.east) -- ++ (1.25,0) 
+					node[midway](output){}node[midway,above]{$\dot{\theta}$};
+					\draw [-stealth] (output.center) -- ++ (0,-1.5) -| (sum.south);
+					
+					\draw (sum.west) -- ++(-1,0) 
+					node[midway,above]{$V(s)$};
+				\end{tikzpicture}
+			\end{center}
+		\end{frame}
+		
+		\begin{frame}{Diagram Blok Kendali PID Motor DC: Posisi}
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Sum shape
+					\node[draw, circle, minimum size=0.6cm, fill=Rhodamine!50] (sum) at (0,0){};
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\draw (sum.north east) -- (sum.south west)
+					(sum.north west) -- (sum.south east);
+					
+					\node[left=-1pt] at (sum.center){\tiny $+$};
+					\node[below] at (sum.center){\tiny $-$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, above right=0.3cm and -2cm of controller] (text2) {\textit{PID}};
+					% Controller
+					\node [draw, fill=Aquamarine, minimum width=2cm, minimum height=1.2cm, right=1cm of sum]  (controller) {$Kp+\frac{Ki}{s}+Kds$};
+					
+					\node [draw, minimum width=1cm, minimum height=0.6cm, above right=0.3cm and -2.5cm of system] (text2) {\textit{DC Motor}};
+					% System H(s)
+					\node [draw, fill=SkyBlue, minimum width=2cm, minimum height=1.2cm, right=0.8cm of controller] (system) {$\frac{Kt}{s((Js+b)(Ls+R)+KtKe)}$};
+					
+					% Arrows with text label
+					\draw[-stealth] (sum.east) -- (controller.west)
+					node[midway,above]{$e(s)$};
+					
+					\draw[-stealth] (controller.east) -- (system.west) 
+					node[midway,above]{$u(s)$};
+					
+					\draw[-stealth] (system.east) -- ++ (1.25,0) 
+					node[midway](output){}node[midway,above]{$\theta$};
+					\draw [-stealth] (output.center) -- ++ (0,-1.5) -| (sum.south);
+					
+					\draw (sum.west) -- ++(-1,0) 
+					node[midway,above]{$V(s)$};
+				\end{tikzpicture}
+			\end{center}
+		\end{frame}
+		
+		\section{Simulasi Kendali PID}
+		
+		\begin{frame}{Uji Perbandingan Sistem \textit{Open-loop} dengan \textit{Closed-loop} Motor DC}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					Program \textit{Open-loop}:
+					\color{black}\rule{\linewidth}{4pt}
+					\lstinputlisting[language=Matlab]{Matlab/olDCmotor.m}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					Program \textit{Closed-loop}:
+					\color{blue}\rule{\linewidth}{4pt}
+					\lstinputlisting[language=Matlab]{Matlab/clDCspeed.m}
+				\end{column}
+			\end{columns}
+		\end{frame}	
+		\begin{frame}{Perbandingan Respon Sistem \textit{Open-loop} dengan \textit{Closed-loop} pada Motor DC}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					Hasil \textit{Open-loop}:\newline
+					\color{black}\rule{\linewidth}{4pt}
+					\includegraphics[width=7.5cm]{Matlab/olDCSpeed.png}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					Hasil \textit{Closed-loop}:\newline
+					\color{blue}\rule{\linewidth}{4pt}
+					\includegraphics[width=7.5cm]{Matlab/clDCSpeed.png}
+				\end{column}
+			\end{columns}
+		\end{frame}		
+		\begin{frame}{Kendali PID: Posisi}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					Program:
+					\color{black}\rule{\linewidth}{4pt}
+					\lstinputlisting[language=Matlab]{Matlab/PIDpos.m}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					Hasil:
+					\color{blue}\rule{\linewidth}{4pt}
+					\begin{center}
+						\includegraphics[width=7.5cm]{Matlab/PIDpos.png}
+					\end{center}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\section{Sistem Mekanikal dan Elektrikal}
+		\begin{frame}{Diagram Sistem}
+			\begin{center}
+				\includegraphics[width=15cm]{Gambar Lain/topologi.png}
+			\end{center}
+		\end{frame}
+	
+	\begin{frame}{Panel Kendali}
+		\begin{columns}[T]
+			\begin{column}{0.48\textwidth}
+				\centering
+				\includegraphics[width=7cm]{Gambar Lain/KONTORU.jpg}
+				Kontroler
+			\end{column}
+			\begin{column}{0.48\textwidth}
+				\begin{tabular}{ | m{1cm} | m{2.5cm}| m{2cm}|} 
+					\hline
+					\textbf{Input-Output} & \textbf{Fungsi} & \textbf{Pin} \\ 
+					\hline
+					SP & Set Poin & A7\\ 
+					\hline
+					P & Proporsional & A5 \\
+					\hline
+					I & Integral & A8 \\
+					\hline
+					D & Derivatif & A6 \\
+					\hline
+					SEL & \textit{Selector} & 34, 32, 30 \\
+					\hline
+					dt & \textit{Time Sampling} & A4 \\
+					\hline
+					LCD & LCD & 0, 1 \\
+					\hline
+					KEY & Keypad & 52, 50, 48, 46, 44, 42, 40, 38 \\
+					\hline
+				\end{tabular}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+		\begin{frame}{Desain \textit{Hardware}}
+			\begin{columns}[T] % align columns
+				\begin{column}{0.48\textwidth}
+					Desain Elektronis
+					\color{black}\rule{\linewidth}{4pt}
+					\includegraphics[width=7.5cm]{Render/Main Board_v3 (Home).png}
+				\end{column}%
+				\hfill%
+				\begin{column}{0.48\textwidth}
+					Desain Mekanis
+					\color{blue}\rule{\linewidth}{4pt}
+					\includegraphics[width=7.5cm]{Render/Feedback Actuator UNIT ES151(Home).png}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		
+\section{\textit{Graphical User Interface} (GUI)}
+		\begin{frame}{GUI Menggunakan Python}
+			\centering
+			\movie{\includegraphics[height=2.8in]{Tampilan GUI/GUI.PNG}}{Video/VideoDemo.mp4}
+%			\movie[externalviewer]{\includegraphics[width=12.0cm, keepaspectratio]{Tampilan GUI/GUI.png}}{Video/VideoDemo.mp4}
+		\end{frame}
+	
+\section{Hasil dan Pembahasan}
+\subsection*{Percobaan Kontroler Kecepatan Motor DC}
+	\begin{frame}{Percobaan Kontroler Kecepatan Motor DC}
+		
+	\end{frame}
+
+\section{Penutup}
+		\begin{frame}
+			\frametitle{Kesimpulan}
+			Dari percobaan-percobaan dan pembahasan-pembahasan yang telah dilakukan, diperoleh beberapa kesimpulan yaitu:
+			\begin{enumerate}
+				\item Semua nilai potensio memiliki nilai maksimal ADC yaitu sebesar 671 sehingga diperlukan kalibrasi agar nilai nya sesuai dengaan yang diinginkan. Kemudian pada pembacaan tachogenerator hanya dapat membaca nilai pwm pada range 40 sampai 75 sehingga diperlukan penyesuaian pada nilai setpointnya. 
+				\item Pada GUI Python dapat menampilkan grafik kendali posisi dan kecepatan motor beserta dengan nilai \textit{error} nya, akan tetapi penampilan data PID (Kp, Ki, Kd) pada GUI belum sesuai dengan yang diinginkan.
+				\item Pengembangan GUI menggunakan Python memiliki potensi keberlanjutan yang sangat besar karena \textit{library-library} yang dapat digunakan sangat beragam. Oleh karena itu, GUI dapat ditingkatkan lagi dengan berbagai fitur baru sesuai dengan kebutuhan.
+			\end{enumerate}
+		\end{frame}
+		
+		\begin{frame}
+			\frametitle{Daftar Pustaka}
+			\begin{itemize}
+				\item Control Tutorial for Matlab \& Simulink. \url{https://ctms.engin.umich.edu/CTMS/index.php?example=Introduction&section=SystemModeling}
+				\item Proportional-Integral-Derivative (PID) Controllers. \url{https://www.mathworks.com/help/control/ug/proportional-integral-derivative-pid-controllers.html}
+			\end{itemize}
+		\end{frame}
+		
+%		\begin{frame}
+%			\centering
+%			\animategraphics[loop,width=8cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2}
+%		\end{frame}
+		
+		\begin{frame}
+			\begin{Center}
+				\vspace{0.8cm}
+				\includegraphics[height=2cm]{Lambang dan logo UGM/Lambang UGM-hitam.png}
+				\vspace{0.2cm}
+				\newline Visit us on https://otomasi.sv.ugm.ac.id/
+				\newline \animategraphics[loop,width=5cm]{10}{Gambar Lain/Terima Kasih/giphy-}{0}{2} 
+				\hspace{1cm}
+			\end{Center}
+		\end{frame}
+		
+\end{document}
