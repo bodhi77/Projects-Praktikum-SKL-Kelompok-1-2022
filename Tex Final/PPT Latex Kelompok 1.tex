@@ -698,19 +698,124 @@
 %			\movie[externalviewer]{\includegraphics[width=12.0cm, keepaspectratio]{Tampilan GUI/GUI.png}}{Video/VideoDemo.mp4}
 		\end{frame}
 	
-\section{Hasil dan Pembahasan}
+\section{Data Hasil Percobaan}
 \subsection*{Percobaan Kontroler Kecepatan Motor DC}
 	\begin{frame}{Percobaan Kontroler Kecepatan Motor DC}
-		
+		\centering
+		\includegraphics[width=14cm]{Graph/speed.png}
 	\end{frame}
+	\begin{frame}{Percobaan Kontroler Kecepatan Motor DC}
+		\centering
+		\includegraphics[width=14cm]{Graph/speedKpBesar.png}
+	\end{frame}
+	\begin{frame}{Percobaan Kontroler Kecepatan Motor DC}
+		\centering
+		\includegraphics[width=14cm]{Graph/speedKiBesar.png}
+	\end{frame}
+	\begin{frame}{Percobaan Kontroler Kecepatan Motor DC}
+		\centering
+		\includegraphics[width=14cm]{Graph/speedKdBesar.png}
+	\end{frame}
+	\begin{frame}{Nilai RMSE dari Respon Kendali Kecepatan (\textit{Potentiometer Feedback})}
+		\begin{table}[H] 
+			\begin{tabular}{| m{3cm} | m{3cm}| m{3cm}|}
+				\hline
+				\textbf{$K_{p}$, $K_{i}$, $K_{d}$}	& \textbf{Set Point (PWM)}	& \textbf{RMSE}\\
+				\hline 
+				5, 0, 3		& 45			& 3.6193\\
+				& 50		& 2.5903\\
+				& 60			& 8.6931\\
+				& 74			& 13.2860\\
+				\hline
+				20, 0, 3	& 45			& 24.8897\\
+				& 50			& 22.8576\\
+				& 60			& 12.3036\\
+				& 74			& 8.2987\\
+				\hline
+				5, 20, 3	& 45			& 27.2939\\
+				& 50			& 21.7294\\
+				& 60			& 13.6198\\
+				& 74			& 6.98641\\
+				\hline
+				5, 0, 20	& 45			& 27.3744\\
+				& 50			& 22.8576\\
+				& 60			& 8.2243\\
+				& 74			& 13.0831\\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{frame}
+
+\subsection*{Percobaan Kontroler Posisi Motor DC}
+\begin{frame}{Percobaan Kontroler Posisi Motor DC}
+	\centering
+	\includegraphics[width=14cm]{Graph/pos.png}
+\end{frame}
+\begin{frame}{Percobaan Kontroler Posisi Motor DC}
+	\centering
+	\includegraphics[width=14cm]{Graph/posKpBesar.png}
+\end{frame}
+\begin{frame}{Percobaan Kontroler Posisi Motor DC}
+	\centering
+	\includegraphics[width=14cm]{Graph/posKiBesar.png}
+\end{frame}
+\begin{frame}{Percobaan Kontroler Posisi Motor DC}
+	\centering
+	\includegraphics[width=14cm]{Graph/posKdBesar.png}
+\end{frame}
+\begin{frame}{Nilai RMSE dari Respon Kendali Posisi (\textit{Potentiometer Feedback})}
+	\begin{table}[H] 
+		\begin{tabular}{| m{3cm} | m{3cm}| m{3cm}|}
+			\hline
+			\textbf{$K_{p}$, $K_{i}$, $K_{d}$}	& \textbf{Set Point}	& \textbf{RMSE}\\
+			\hline 
+			5, 0, 3	& 45$^\circ$			& 128.8989\\
+			& 90$^\circ$			& 81.5136\\
+			& 180$^\circ$			& 50.0722 \\
+			\hline
+			20, 0, 3	& 45$^\circ$			& 125.3849\\
+			& 90$^\circ$			& 86.0077\\
+			& 180$^\circ$			& 39.1094\\
+			\hline
+			5, 20, 3	& 45$^\circ$			& 129.0604\\
+			& 90$^\circ$			& 80.7569\\
+			& 180$^\circ$			& 47.6050\\
+			\hline
+			5, 0, 20	& 45$^\circ$			& 138.9283\\
+			& 90$^\circ$			& 116.1425\\
+			& 180$^\circ$			& 45.4912\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Respon Kontroler Posisi Motor DC dengan Gangguan dan Variasi Nilai Kd}
+	\centering
+	\includegraphics[width=14cm]{Graph/VariasiD.png}
+\end{frame}
+\begin{frame}{Nilai RMSE dari Respon Kendali Posisi dengan Gangguan dan Variasi Nilai Kd (\textit{Potentiometer Feedback})}
+	\begin{table}[H] 
+		\begin{tabular}{| m{3cm} | m{3cm}| m{3cm}|}
+			\hline
+			\textbf{$K_{p}$, $K_{i}$, $K_{d}$}	& \textbf{Set Point}	& \textbf{RMSE}\\
+			\hline 
+			5, 0, 1	& 180$^\circ$			& 24.9295\\
+			5, 0, 2 & 180$^\circ$			& 17.9092\\
+			5, 0, 3 & 180$^\circ$			& 15.7003\\
+			5, 0, 10 & 180$^\circ$			& 8.9520\\
+			5, 0, 20 & 180$^\circ$			& 9.9789\\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{frame}
 
 \section{Penutup}
 		\begin{frame}
 			\frametitle{Kesimpulan}
 			Dari percobaan-percobaan dan pembahasan-pembahasan yang telah dilakukan, diperoleh beberapa kesimpulan yaitu:
 			\begin{enumerate}
-				\item Semua nilai potensio memiliki nilai maksimal ADC yaitu sebesar 671 sehingga diperlukan kalibrasi agar nilai nya sesuai dengaan yang diinginkan. Kemudian pada pembacaan tachogenerator hanya dapat membaca nilai pwm pada range 40 sampai 75 sehingga diperlukan penyesuaian pada nilai setpointnya. 
-				\item Pada GUI Python dapat menampilkan grafik kendali posisi dan kecepatan motor beserta dengan nilai \textit{error} nya, akan tetapi penampilan data PID (Kp, Ki, Kd) pada GUI belum sesuai dengan yang diinginkan.
+				\item Kontroler yang sebelumnya sirkuit yang bersifat analog dirombak menjadi digital dengan Arduino Mega 2560. Instrumen mampu menerapkan kendali PID posisi dan kecepatan pada motor DC, namun pada kendali kecepatan masih memiliki kekurangan berupa rentang PWM yang digunakan yaitu sebesar 44-74 yang mana harusnya adalah 0-255.
+				\item GUI yang didesain khusus untuk instrumen ini mampu menampilkan data berupa grafik respon dan \textit{error}.
 				\item Pengembangan GUI menggunakan Python memiliki potensi keberlanjutan yang sangat besar karena \textit{library-library} yang dapat digunakan sangat beragam. Oleh karena itu, GUI dapat ditingkatkan lagi dengan berbagai fitur baru sesuai dengan kebutuhan.
 			\end{enumerate}
 		\end{frame}

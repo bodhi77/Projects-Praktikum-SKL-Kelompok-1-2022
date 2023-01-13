@@ -4,5 +4,5 @@
 \beamer@sectionintoc {4}{Simulasi Kendali PID}{17}{0}{4}
 \beamer@sectionintoc {5}{Sistem Mekanikal dan Elektrikal}{21}{0}{5}
 \beamer@sectionintoc {6}{\textit {Graphical User Interface} (GUI)}{25}{0}{6}
-\beamer@sectionintoc {7}{Hasil dan Pembahasan}{27}{0}{7}
-\beamer@sectionintoc {8}{Penutup}{29}{0}{8}
+\beamer@sectionintoc {7}{Data Hasil Percobaan}{27}{0}{7}
+\beamer@sectionintoc {8}{Penutup}{40}{0}{8}
